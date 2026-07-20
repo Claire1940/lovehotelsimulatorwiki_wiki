@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "LOVE Hotel Simulator Wiki - Guide, Codes & Build",
+      "description": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players.",
+      "keywords": "LOVE Hotel Simulator, Steam, hotel guide, room customization, staff, walkthrough",
+      "ogTitle": "LOVE Hotel Simulator Wiki - Guide, Codes & Build",
+      "ogDescription": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players.",
+      "twitterTitle": "LOVE Hotel Simulator Wiki - Guide, Codes & Build",
+      "twitterDescription": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Romantic Hotel Management Simulator",
+    "title": "LOVE Hotel Simulator Wiki",
+    "description": "Complete LOVE Hotel Simulator guide covering hotel building, room customization, staff management, customer requests, upgrades, and business strategies. Explore everything players need to grow their dream love hotel.",
+    "keywords": "LOVE Hotel Simulator, Steam, hotel simulator, management game, room customization, staff guide",
+    "getFreeCodesCTA": "Get Free Codes",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "100K+",
+        "label": "Wishlist Potential"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "100+",
+        "label": "Customization Items"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "0",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
     }
   },
@@ -785,26 +786,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
+    "title": "Ready to Run Your Love Hotel?",
+    "description": "Wishlist LOVE Hotel Simulator on Steam, join the Steam Community for the latest guides and updates, and start building your dream hotel business.",
+    "joinCommunity": "Steam Community",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "LOVE Hotel Simulator Wiki",
+    "description": "Your complete resource hub for LOVE Hotel Simulator hotel management, room customization, staff strategies, and gameplay guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Steam Store",
+    "twitter": "Steam Community",
+    "steamCommunity": "SteamDB",
+    "steamStore": "Steam News",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 LOVE Hotel Simulator Wiki. Not affiliated with the developers of LOVE Hotel Simulator.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
