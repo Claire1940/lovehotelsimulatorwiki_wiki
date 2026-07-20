@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "LOVE Hotel Simulator Wiki - Guides, Rooms & Staff",
+  "short_name": "LOVE Hotel Simulator",
+  "description": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#db2777",
+  "background_color": "#100a14",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
