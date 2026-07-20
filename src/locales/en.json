@@ -10,14 +10,7 @@
       "twitterDescription": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

@@ -55,8 +55,13 @@ function main() {
   let total = 0
 
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    // content/ 不存在时生成空清单 {} 而非 exit(1)：
+    // 新站 Part3 阶段 content/ 已删除、文章尚未拉取，exit(1) 会导致 CI 构建失败。
+    // 空清单让 sitemap/路由在无内容状态下正常构建（空枚举），后续 Part 拉文章后重跑自动补全。
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，生成空清单 {}`)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    return
   }
 
   const locales = fs
