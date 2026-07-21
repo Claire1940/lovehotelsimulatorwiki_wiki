@@ -14,6 +14,34 @@
         "file": "love-hotel-simulator-staff"
       }
     ],
+    "community": [
+      {
+        "slug": "love-hotel-simulator-community",
+        "file": "love-hotel-simulator-community"
+      },
+      {
+        "slug": "love-hotel-simulator-discord",
+        "file": "love-hotel-simulator-discord"
+      },
+      {
+        "slug": "love-hotel-simulator-reddit",
+        "file": "love-hotel-simulator-reddit"
+      }
+    ],
+    "content": [
+      {
+        "slug": "love-hotel-simulator-first-look",
+        "file": "love-hotel-simulator-first-look"
+      },
+      {
+        "slug": "love-hotel-simulator-full-gameplay",
+        "file": "love-hotel-simulator-full-gameplay"
+      },
+      {
+        "slug": "love-hotel-simulator-pc-game",
+        "file": "love-hotel-simulator-pc-game"
+      }
+    ],
     "guide": [
       {
         "slug": "love-hotel-simulator-beginner-guide",
@@ -52,6 +80,10 @@
       {
         "slug": "love-hotel-simulator-expansion",
         "file": "love-hotel-simulator-expansion"
+      },
+      {
+        "slug": "love-hotel-simulator-hotel-management",
+        "file": "love-hotel-simulator-hotel-management"
       },
       {
         "slug": "love-hotel-simulator-money",
@@ -93,6 +125,24 @@
         "slug": "love-hotel-simulator-worth-it",
         "file": "love-hotel-simulator-worth-it"
       }
+    ],
+    "rooms": [
+      {
+        "slug": "love-hotel-simulator-hotel-customization",
+        "file": "love-hotel-simulator-hotel-customization"
+      },
+      {
+        "slug": "love-hotel-simulator-room-design",
+        "file": "love-hotel-simulator-room-design"
+      },
+      {
+        "slug": "love-hotel-simulator-rooms",
+        "file": "love-hotel-simulator-rooms"
+      },
+      {
+        "slug": "love-hotel-simulator-themes",
+        "file": "love-hotel-simulator-themes"
+      }
     ]
   },
   "en": {
@@ -108,6 +158,20 @@
       {
         "slug": "love-hotel-simulator-staff",
         "file": "love-hotel-simulator-staff"
+      }
+    ],
+    "community": [
+      {
+        "slug": "love-hotel-simulator-community",
+        "file": "love-hotel-simulator-community"
+      },
+      {
+        "slug": "love-hotel-simulator-discord",
+        "file": "love-hotel-simulator-discord"
+      },
+      {
+        "slug": "love-hotel-simulator-reddit",
+        "file": "love-hotel-simulator-reddit"
       }
     ],
     "content": [
@@ -242,6 +306,34 @@
         "file": "love-hotel-simulator-staff"
       }
     ],
+    "community": [
+      {
+        "slug": "love-hotel-simulator-community",
+        "file": "love-hotel-simulator-community"
+      },
+      {
+        "slug": "love-hotel-simulator-discord",
+        "file": "love-hotel-simulator-discord"
+      },
+      {
+        "slug": "love-hotel-simulator-reddit",
+        "file": "love-hotel-simulator-reddit"
+      }
+    ],
+    "content": [
+      {
+        "slug": "love-hotel-simulator-first-look",
+        "file": "love-hotel-simulator-first-look"
+      },
+      {
+        "slug": "love-hotel-simulator-full-gameplay",
+        "file": "love-hotel-simulator-full-gameplay"
+      },
+      {
+        "slug": "love-hotel-simulator-pc-game",
+        "file": "love-hotel-simulator-pc-game"
+      }
+    ],
     "guide": [
       {
         "slug": "love-hotel-simulator-beginner-guide",
@@ -282,8 +374,16 @@
         "file": "love-hotel-simulator-expansion"
       },
       {
+        "slug": "love-hotel-simulator-hotel-management",
+        "file": "love-hotel-simulator-hotel-management"
+      },
+      {
         "slug": "love-hotel-simulator-money",
         "file": "love-hotel-simulator-money"
+      },
+      {
+        "slug": "love-hotel-simulator-upgrades",
+        "file": "love-hotel-simulator-upgrades"
       }
     ],
     "release": [
@@ -317,6 +417,24 @@
         "slug": "love-hotel-simulator-worth-it",
         "file": "love-hotel-simulator-worth-it"
       }
+    ],
+    "rooms": [
+      {
+        "slug": "love-hotel-simulator-hotel-customization",
+        "file": "love-hotel-simulator-hotel-customization"
+      },
+      {
+        "slug": "love-hotel-simulator-room-design",
+        "file": "love-hotel-simulator-room-design"
+      },
+      {
+        "slug": "love-hotel-simulator-rooms",
+        "file": "love-hotel-simulator-rooms"
+      },
+      {
+        "slug": "love-hotel-simulator-themes",
+        "file": "love-hotel-simulator-themes"
+      }
     ]
   },
   "ja": {
@@ -332,6 +450,34 @@
       {
         "slug": "love-hotel-simulator-staff",
         "file": "love-hotel-simulator-staff"
+      }
+    ],
+    "community": [
+      {
+        "slug": "love-hotel-simulator-community",
+        "file": "love-hotel-simulator-community"
+      },
+      {
+        "slug": "love-hotel-simulator-discord",
+        "file": "love-hotel-simulator-discord"
+      },
+      {
+        "slug": "love-hotel-simulator-reddit",
+        "file": "love-hotel-simulator-reddit"
+      }
+    ],
+    "content": [
+      {
+        "slug": "love-hotel-simulator-first-look",
+        "file": "love-hotel-simulator-first-look"
+      },
+      {
+        "slug": "love-hotel-simulator-full-gameplay",
+        "file": "love-hotel-simulator-full-gameplay"
+      },
+      {
+        "slug": "love-hotel-simulator-pc-game",
+        "file": "love-hotel-simulator-pc-game"
       }
     ],
     "guide": [
@@ -360,6 +506,10 @@
         "file": "love-hotel-simulator-prologue"
       },
       {
+        "slug": "love-hotel-simulator-tips",
+        "file": "love-hotel-simulator-tips"
+      },
+      {
         "slug": "love-hotel-simulator-walkthrough",
         "file": "love-hotel-simulator-walkthrough"
       }
@@ -368,6 +518,10 @@
       {
         "slug": "love-hotel-simulator-expansion",
         "file": "love-hotel-simulator-expansion"
+      },
+      {
+        "slug": "love-hotel-simulator-hotel-management",
+        "file": "love-hotel-simulator-hotel-management"
       },
       {
         "slug": "love-hotel-simulator-money",
@@ -390,6 +544,10 @@
       {
         "slug": "love-hotel-simulator-trailer",
         "file": "love-hotel-simulator-trailer"
+      },
+      {
+        "slug": "love-hotel-simulator-update",
+        "file": "love-hotel-simulator-update"
       }
     ],
     "reviews": [
@@ -404,6 +562,24 @@
       {
         "slug": "love-hotel-simulator-worth-it",
         "file": "love-hotel-simulator-worth-it"
+      }
+    ],
+    "rooms": [
+      {
+        "slug": "love-hotel-simulator-hotel-customization",
+        "file": "love-hotel-simulator-hotel-customization"
+      },
+      {
+        "slug": "love-hotel-simulator-room-design",
+        "file": "love-hotel-simulator-room-design"
+      },
+      {
+        "slug": "love-hotel-simulator-rooms",
+        "file": "love-hotel-simulator-rooms"
+      },
+      {
+        "slug": "love-hotel-simulator-themes",
+        "file": "love-hotel-simulator-themes"
       }
     ]
   }
