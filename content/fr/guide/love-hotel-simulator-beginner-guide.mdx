@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide du débutant pour Love Hotel Simulator : 5 conseils et astuces d'installation",
+  description: "Maîtrisez les bases de Love Hotel Simulator grâce à notre guide du débutant. Apprenez à configurer les chambres, à gérer le personnel et à optimiser votre trésorerie pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Love+Hotel+Simulator+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Love Hotel Simulator"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Établir un flux de trésorerie stable en optimisant l'agencement initial des chambres et en maintenant un taux de rotation élevé.
+- **Conception des chambres** : Priorisez les lits de haute qualité et l'insonorisation dès le départ pour améliorer les évaluations de satisfaction des clients.
+- **Personnel** : Embauchez immédiatement des nettoyeurs dédiés pour maintenir les normes d'hygiène et éviter les avis négatifs.
+- **Tarification** : Ajustez les tarifs horaires en fonction des niveaux de thèmes des chambres et des variations saisonnières de la demande.
+- **Progression** : Réinvestissez les premiers bénéfices dans le déblocage d'équipements de chambre haut de gamme plutôt que dans des améliorations esthétiques du hall d'entrée.
+</Callout>
+
+<Section icon={Sparkles} title="Agencement des chambres : Concevoir des espaces à haut rendement">
+
+Bâtir une entreprise prospère nécessite une compréhension approfondie de l'agencement des chambres et des préférences des clients. Au début du jeu, l'espace est votre ressource la plus précieuse. Placer le mobilier de manière efficace garantit que les clients ont accès à tous les équipements nécessaires sans causer de problèmes de déplacement (pathfinding). Une chambre standard doit contenir un lit, un éclairage et un coin salle de bain, mais l'ajout de décorations thématiques augmentera considérablement la valeur de la pièce.
+
+Lors de la conception de vos premières chambres, essayez de laisser un espace d'au moins une case autour du lit pour permettre au personnel de nettoyer la zone rapidement. Les chambres encombrées ou difficiles d'accès ralentiront vos agents d'entretien, ce qui allongera le temps d'attente pour les clients.
+
+| Catégorie de chambre | Coût de base | Tarif horaire | Niveau de satisfaction |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Faible | **25 $** | Modéré |
+| **Deluxe** | Moyen | **55 $** | Élevé |
+| **Suite** | Élevé | **120 $** | Excellent |
+
+Pour maximiser votre retour sur investissement, vous devriez expérimenter différents thèmes. Les clients sont prêts à payer plus cher pour des expériences uniques, il est donc fortement recommandé d'accorder le mobilier à un style spécifique.
+
+<CardGrid cols={3}>
+  <Card title="Thème Cyberpunk">
+    - **Grande attractivité** auprès des jeunes clients
+    - Nécessite des installations d'éclairage néon
+    - Coût d'installation modéré
+  </Card>
+  <Card title="Thème Traditionnel">
+    - **Demande constante** pour toutes les catégories démographiques
+    - Axé sur le mobilier en bois
+    - Faibles coûts d'entretien
+  </Card>
+  <Card title="Thème Fantastique">
+    - Opportunités de **tarification premium**
+    - Nécessite des accessoires interactifs coûteux
+    - Investissement initial élevé
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de conception">
+Placez toujours la salle de bain près de l'entrée de la chambre. Cet agencement réduit le temps que les clients passent à traverser la pièce, ce qui accélère leur cycle global et augmente votre taux de rotation quotidien.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide du débutant pour Love Hotel Simulator : Stratégies financières">
+
+La gestion de vos finances est l'aspect le plus crucial pour maintenir votre entreprise opérationnelle. Beaucoup de nouveaux joueurs échouent parce qu'ils dépensent trop d'argent dans des décorations coûteuses avant d'avoir assuré un revenu quotidien stable. Votre priorité absolue durant la première semaine doit être de maintenir un flux de trésorerie positif. Suivez de près vos factures d'électricité et d'eau ainsi que les salaires du personnel, car ces coûts récurrents peuvent rapidement vider votre compte bancaire si votre taux d'occupation chute.
+
+L'ajustement des tarifs de vos chambres est un outil puissant pour contrôler le flux de clients. Si vous remarquez de longues files d'attente à la réception, c'est le signe clair que vos prix sont trop bas. À l'inverse, si vos chambres restent vides pendant des heures, envisagez de baisser temporairement les tarifs pour attirer les clients soucieux de leur budget.
+
+| Élément d'amélioration | Coût initial | Consommation d'énergie | Boost de profit |
+| :--- | :--- | :--- | :--- |
+| **Éclairage néon** | Bon marché | **Faible** | +10 % |
+| **Baignoire jacuzzi** | Coûteux | **Élevée** | +45 % |
+| **Murs insonorisés** | Modéré | **Aucune** | +25 % |
+
+La surveillance de votre consommation d'énergie est également essentielle. Les appareils haut de gamme comme les jacuzzis et les systèmes de divertissement avancés consomment d'importantes quantités d'électricité. Éteignez les appareils dans les chambres inoccupées pour garder vos factures d'énergie sous contrôle.
+
+<Callout type="warning" title="Avertissement financier">
+Évitez de contracter des emprunts maximaux en début de partie. Les taux d'intérêt élevés peuvent facilement dépasser vos revenus quotidiens, vous menant à la faillite avant même d'avoir pu établir une clientèle stable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guide du personnel : Recruter et former les employés">
+
+Une main-d'œuvre efficace est le pilier des opérations de votre hôtel. Bien que vous puissiez gérer vous-même les enregistrements et le nettoyage au début, vous serez rapidement débordé à mesure que vous construirez d'autres chambres. L'embauche de personnel vous permet d'automatiser les tâches quotidiennes et de vous concentrer sur l'expansion de votre entreprise. Chaque type d'employé a des tâches spécifiques, et équilibrer leur charge de travail est essentiel pour maintenir une qualité de service élevée.
+
+La propreté est le facteur le plus important dans les avis des clients. Si une chambre est sale, les clients partiront immédiatement et publieront des commentaires négatifs en ligne, ce qui fera baisser votre réputation globale. Par conséquent, l'embauche d'un nettoyeur fiable devrait être votre toute première décision en matière de personnel.
+
+| Rôle du personnel | Salaire mensuel | Responsabilité clé | Niveau d'efficacité |
+| :--- | :--- | :--- | :--- |
+| **Nettoyeur** | **800 $** | Désinfection des chambres | Élevé |
+| **Réceptionniste** | **1 200 $** | Enregistrement des clients | Moyen |
+| **Agent de sécurité** | **1 500 $** | Prévention des incidents | Élevé |
+
+À mesure que vos revenus augmentent, investissez dans la formation de votre personnel. Les employés formés travaillent plus vite, consomment moins d'énergie et gèrent plus efficacement les plaintes des clients, ce qui se traduit directement par des évaluations et des bénéfices plus élevés.
+
+<Callout type="success" title="Succès de gestion">
+Priorisez d'abord la formation de votre personnel de nettoyage. Des temps de nettoyage plus rapides signifient que les chambres sont préparées plus vite pour les clients suivants, ce qui augmente directement vos revenus quotidiens maximaux.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configuration du premier jour : Guide étape par étape">
+
+Commencer votre aventure entrepreneuriale peut sembler intimidant. Suivez ce guide structuré pour vous assurer que votre entreprise démarre sur de bonnes bases sans gaspiller de ressources précieuses.
+
+<Steps>
+  <Step num="1" title="Construire le bureau de réception">
+    Placez le bureau de réception près de l'entrée principale. Assurez-vous qu'il y a un espace dégagé devant celui-ci pour que les clients puissent faire la queue sans bloquer le couloir.
+  </Step>
+  <Step num="2" title="Construire deux chambres standards">
+    Construisez deux chambres de base dotées du mobilier essentiel : un lit double, un éclairage simple et une cloison de salle de bain basique. Gardez les décorations minimales pour le moment.
+  </Step>
+  <Step num="3" title="Embaucher un nettoyeur à temps partiel">
+    Allez dans le menu de recrutement du personnel et embauchez un nettoyeur ayant des attentes salariales raisonnables. Assignez-le pour donner la priorité au nettoyage des chambres plutôt qu'à l'entretien général.
+  </Step>
+  <Step num="4" title="Définir les tarifs initiaux et ouvrir">
+    Fixez les tarifs de vos chambres légèrement en dessous de la moyenne du marché pour attirer vos premiers clients. Ouvrez les portes et suivez de près les retours des clients.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Infos opérationnelles">
+Pendant votre premier jour, restez près du bureau de réception pour aider à enregistrer les clients manuellement. Cela permet d'économiser sur le salaire d'un réceptionniste pendant la phase de démarrage critique.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons : Liste de contrôle pour l'expansion de l'entreprise">
+
+Pour suivre vos progrès et vous assurer que vous vous développez à un rythme soutenable, essayez d'atteindre ces jalons de développement au cours de votre premier mois d'activité.
+
+<Checklist
+  id="progression-goals"
+  title="Jalons du premier mois :"
+  items={[
+    "Construire au moins quatre chambres entièrement décorées",
+    "Maintenir une note moyenne des clients supérieure à 80 %",
+    "Embaucher un réceptionniste à plein temps pour automatiser les enregistrements",
+    "Débloquer les options de thèmes de chambres Deluxe dans le menu de recherche",
+    "Générer un bénéfice quotidien constant de 500 $"
+  ]}
+/>
+
+<Callout type="tip" title="Conseils d'expansion">
+Ne construisez pas de nouvelles chambres tant que vos chambres existantes ne sont pas occupées en permanence à hauteur d'au moins 70 %. Une expansion trop rapide peut entraîner des coûts d'entretien élevés sans revenus correspondants.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dépannage : Questions fréquentes des joueurs">
+
+Cette section traite des problèmes courants que rencontrent les joueurs lors de la gestion de leur établissement. Utilisez ces solutions pour assurer le bon fonctionnement de votre entreprise.
+
+<FAQ items={[
+  {
+    question: "Comment puis-je améliorer la note globale de mon hôtel ?",
+    answer: "Concentrez-vous sur le maintien de niveaux de propreté élevés, la réduction des temps d'attente à l'enregistrement et l'amélioration des équipements des chambres, tels que les lits et les systèmes de divertissement."
+  },
+  {
+    question: "Pourquoi les clients laissent-ils des avis négatifs sur la propreté ?",
+    answer: "Cela se produit généralement si vous n'avez pas assez de nettoyeurs ou si leurs itinéraires de déplacement vers les chambres sont bloqués par des meubles mal placés."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de gagner de l'argent en début de partie ?",
+    answer: "Maintenez des prix de chambres modérés pour garantir un taux d'occupation élevé, et aidez manuellement à l'enregistrement des clients pour éviter de payer le salaire d'un réceptionniste au début."
+  },
+  {
+    question: "Comment débloquer de nouveaux thèmes de chambres et de nouveaux meubles ?",
+    answer: "Vous devez investir vos bénéfices dans le menu de recherche et développement pour débloquer des objets avancés, des thèmes décoratifs et des agencements de chambres plus grands."
+  }
+]} />
+
+<Callout type="info" title="Mise à jour du système">
+Gardez votre jeu mis à jour avec les derniers correctifs de 2026, car les développeurs rééquilibrent fréquemment les coûts des services publics et le comportement de l'IA du personnel afin d'améliorer le gameplay.
+</Callout>
+
+</Section>

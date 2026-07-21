@@ -1,0 +1,174 @@
+import { Users, Target, Shield, Sparkles, Trophy, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personnages de LOVE Hotel Simulator : Types de clients et rôles du personnel",
+  description: "Maîtrisez les personnages de LOVE Hotel Simulator grâce à notre guide 2026 sur le profil des clients, la gestion du personnel et les stratégies d'interaction avec les PNJ pour une efficacité maximale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Character+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki de LOVE Hotel Simulator"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Diversité des personnages** : Le succès dépend de la gestion des différents **personnages de LOVE Hotel Simulator**, y compris des archétypes de clients variés et du personnel spécialisé.
+- **Satisfaction des clients** : Les différents profils démographiques nécessitent des thèmes de chambres et des niveaux de service spécifiques pour maintenir des évaluations élevées.
+- **Optimisation du personnel** : Embaucher les bons employés pour la réception, le nettoyage et la sécurité est essentiel pour développer votre entreprise.
+- **Mécaniques d'interaction** : Les interactions à la première personne avec les PNJ rencontrent une influence directe sur la réputation de votre hôtel et vos revenus quotidiens.
+- **Progression** : Débloquer des personnages et des membres du personnel de niveau supérieur nécessite des améliorations constantes de l'hôtel et une bonne gestion des ressources.
+</Callout>
+
+<Section icon={Users} title="Introduction aux personnages de LOVE Hotel Simulator">
+
+Dans le monde de la gestion hôtelière, les **personnages de LOVE Hotel Simulator** que vous rencontrez sont les principaux moteurs de votre économie et de votre réputation. Contrairement aux jeux de simulation traditionnels, ce titre se concentre sur la dynamique unique d'un établissement romantique, où la vie privée des clients, l'esthétique spécifique des chambres et un service discret sont primordiaux. Les personnages sont globalement divisés en deux catégories principales : les clients qui génèrent vos revenus et le personnel qui assure le bon fonctionnement de l'établissement.
+
+Comprendre les comportements de ces PNJ est la première étape pour bâtir un établissement cinq étoiles. Chaque type de personnage a des attentes distinctes, de l'éclairage du hall à la rapidité du processus d'enregistrement. À mesure que vous progresserez en 2026, vous débloquerez des interactions de personnages plus complexes qui nécessiteront une planification stratégique et une allocation de ressources.
+
+<CardGrid cols={3}>
+  <Card title="Archétypes de clients">
+    - **Profils variés** : Des jeunes étudiants aux voyageurs d'affaires haut de gamme.
+    - **Besoins spécifiques** : Chaque groupe a des préférences uniques pour les thèmes de chambres et les équipements.
+    - **Impact sur l'évaluation** : Leurs commentaires déterminent la croissance de votre hôtel.
+  </Card>
+  <Card title="Membres du personnel">
+    - **Rôles fonctionnels** : Réceptionnistes, agents d'entretien et personnel de sécurité.
+    - **Progression des compétences** : Le personnel peut être formé pour améliorer son efficacité et sa rapidité.
+    - **Gestion des coûts** : Équilibrez les salaires par rapport aux avantages opérationnels.
+  </Card>
+  <Card title="PNJ spéciaux">
+    - **Clients VIP** : Des personnages très payants avec des exigences élevées.
+    - **Prestataires de services** : Des personnages externes qui vous aident pour les améliorations et les fournitures.
+    - **Personnages d'événement** : Des PNJ qui apparaissent lors d'étapes spécifiques du jeu.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de gestion">
+Priorisez toujours la vie privée des clients plutôt que les décorations tape-à-l'œil en début de partie. La plupart des personnages de niveau inférieur à moyen accordent plus d'importance à la discrétion qu'aux meubles coûteux, ce qui vous permet d'économiser des ressources pour l'embauche de personnel essentiel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Profils et préférences des clients">
+
+Le cœur de votre activité repose sur les différents types de clients. Dans LOVE Hotel Simulator, les clients ne sont pas de simples PNJ aléatoires ; ils appartiennent à des profils démographiques spécifiques qui dictent leur pouvoir d'achat et leurs exigences en matière de chambre. Gérer efficacement ces **personnages de LOVE Hotel Simulator** nécessite une compréhension approfondie de ce qui satisfait chaque groupe.
+
+Par exemple, les jeunes couples peuvent privilégier l'accessibilité financière et une esthétique moderne éclairée au néon, tandis que les clients plus âgés et plus aisés s'attendent à un luxe classique et à des fonctionnalités de confidentialité haut de gamme. Ne pas faire correspondre un personnage avec son type de chambre préféré entraînera une baisse des scores de satisfaction et des pourboires réduits.
+
+| Archétype de client | Niveau de budget | Style de chambre préféré | Priorité de satisfaction |
+| :--- | :--- | :--- | :--- |
+| **Jeunes couples** | Faible | Néon / Moderne | Prix, Variété des boissons |
+| **Duos d'affaires** | Élevé | Luxe / Professionnel | Rapidité, Propreté |
+| **Clients discrets** | Moyen | Privé / Insonorisé | Discrétion, Sécurité |
+| **Voyageurs à thème** | Moyen | Fantaisie / Artistique | Qualité de la décoration |
+| **Mondains VIP** | Très élevé | Ultra-luxe | Équipements exclusifs |
+
+<Callout type="warning" title="Avertissement critique">
+Associer des clients à budget élevé à des chambres de basse qualité entraînera une baisse immédiate de l'évaluation de votre hôtel. Vérifiez toujours le profil du client avant de confirmer une réservation si vous disposez de plusieurs catégories de chambres.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rôles du personnel et processus de recrutement">
+
+Pour maintenir une activité prospère, vous ne pouvez pas tout gérer seul. Recruter et gérer le bon personnel est une partie essentielle de la boucle de gameplay. Chaque membre du personnel est un personnage avec ses propres statistiques, telles que la vitesse, le charisme et l'endurance. À mesure que votre hôtel s'agrandit, la complexité de la gestion de ces employés augmente, vous obligeant à équilibrer leurs horaires et leur niveau de bonheur.
+
+<Steps>
+  <Step num="1" title="Accéder à l'interface de gestion">
+    Ouvrez le menu de gestion de l'hôtel et accédez à l'onglet « Personnel » pour voir les candidats disponibles dans le bassin de recrutement local.
+  </Step>
+  <Step num="2" title="Évaluer les statistiques des candidats">
+    Examinez les attributs de chaque personnage. Un réceptionniste a besoin d'un charisme élevé, tandis qu'un agent d'entretien a besoin d'une vitesse et d'une endurance élevées.
+  </Step>
+  <Step num="3" title="Attribuer les postes de travail">
+    Placez votre personnel embauché dans les zones qui lui sont désignées. Assurez-vous que vos employés les plus efficaces sont affectés aux zones à fort trafic pendant les heures de pointe.
+  </Step>
+  <Step num="4" title="Surveiller l'énergie et les salaires">
+    Suivez la fatigue du personnel. Les personnages surmenés seront moins performants, ce qui entraînera des plaintes des clients. Ajustez périodiquement les salaires pour maintenir leur fidélité.
+  </Step>
+</Steps>
+
+| Rôle du personnel | Mission principale | Statistique critique | Axe de formation |
+| :--- | :--- | :--- | :--- |
+| **Réceptionniste** | Enregistrements / Demandes | Charisme | Vitesse de traitement |
+| **Agent d'entretien** | Nettoyage des chambres | Vitesse | Minutie |
+| **Sécurité** | Sécurité des clients | Force | Résolution d'incidents |
+| **Maintenance** | Réparation des installations | Technique | Durabilité des réparations |
+
+<Callout type="success" title="Conseil d'efficacité">
+Investir tôt dans la formation du personnel en 2026 s'avère très rentable en milieu de partie. Un agent d'entretien hautement qualifié peut nettoyer les chambres 40 % plus vite, ce qui permet un taux de rotation des chambres beaucoup plus élevé.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mécaniques d'interaction et de relation">
+
+L'interaction avec les **personnages de LOVE Hotel Simulator** se fait principalement à la première personne. Que vous accueilliez des clients à la porte ou que vous résolviez un conflit dans le couloir, vos choix lors de ces interactions comptent. Une discussion informelle, une attitude professionnelle et une résolution rapide des problèmes peuvent transformer une expérience client médiocre en un avis élogieux.
+
+Le jeu utilise une « jauge de satisfaction » pour chaque personnage client. Cette jauge est influencée par des facteurs environnementaux (qualité de la chambre) et des facteurs sociaux (interactions avec le personnel). Maintenir une satisfaction moyenne élevée pour tous les personnages est le seul moyen de débloquer les améliorations d'hôtel les plus prestigieuses.
+
+<Checklist
+  id="interaction-goals"
+  title="Liste de contrôle des interactions quotidiennes :"
+  items={[
+    "Accueillir personnellement les clients VIP à leur arrivée",
+    "Surveiller les icônes de demande des clients dans le HUD de gestion",
+    "Traiter les plaintes du personnel avant qu'il ne démissionne",
+    "Vérifier les niveaux de propreté des chambres après chaque départ",
+    "Mettre à jour les équipements des chambres en fonction des commentaires fréquents des clients"
+  ]}
+/>
+
+<Callout type="info" title="Conseil de pro">
+Faites attention aux indices de dialogue spécifiques des clients. Certains personnages laisseront entendre ce qui manque à leur expérience, comme un meilleur éclairage ou des articles spécifiques dans les distributeurs automatiques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Déblocage des personnages avancés et des étapes clés">
+
+À mesure que votre hôtel passe d'un petit établissement économique à une destination de luxe, vous débloquerez de nouveaux niveaux de **personnages de LOVE Hotel Simulator**. Ces PNJ avancés rapportent plus d'argent mais présentent également des défis plus importants. La progression est liée au niveau général de votre hôtel, qui augmente au fur et à mesure que vous satisfaites des clients et accomplissez des tâches de gestion spécifiques.
+
+| Niveau d'étape | Nouveaux personnages débloqués | Défi de gestion | Récompense |
+| :--- | :--- | :--- | :--- |
+| **Niveau 5** | Voyageurs d'affaires | Demande de nettoyage accrue | Tarifs de chambre de base plus élevés |
+| **Niveau 10** | Personnel professionnel | Attentes salariales plus élevées | Enregistrements automatisés |
+| **Niveau 20** | Mondains VIP | Exigences extrêmes en équipements | Boost massif de réputation |
+| **Niveau 35** | Clients célèbres | Besoins de confidentialité maximaux | Meubles de luxe uniques |
+
+<Callout type="tip" title="Conseil de progression">
+Ne vous précipitez pas pour débloquer les clients VIP tant que vous n'avez pas au moins deux agents d'entretien de haut niveau. Les VIP laissent les pires avis si leurs chambres ne sont pas impeccables, ce qui peut faire chuter votre évaluation si vous n'êtes pas préparé.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment augmenter la satisfaction des personnages de LOVE Hotel Simulator ?",
+    answer: "La satisfaction augmente en associant les clients à leurs styles de chambres préférés, en veillant à ce que les chambres soient propres et en offrant un service rapide. L'amélioration du charisme et de la vitesse du personnel aide également de manière significative."
+  },
+  {
+    question: "Puis-je licencier du personnel s'il n'est pas performant ?",
+    answer: "Oui, vous pouvez résilier les contrats du personnel via le menu de gestion. Cependant, sachez que des licenciements fréquents peuvent faire baisser le moral des employés restants."
+  },
+  {
+    question: "Quelle est la statistique la plus importante pour les personnages clients ?",
+    answer: "Pour la plupart des clients, les statistiques de « Confidentialité » et de « Propreté » sont les plus cruciales. Si l'une d'elles tombe trop bas, le personnage laissera probablement un avis négatif, quels que soient les autres équipements."
+  },
+  {
+    question: "Des personnages spéciaux apparaissent-ils à certains moments de l'année ?",
+    answer: "Oui, dans la mise à jour 2026, certains personnages saisonniers et VIP apparaissent lors des vacances en jeu ou d'événements spéciaux, offrant des récompenses uniques et des revenus plus élevés."
+  }
+]} />
+
+<Callout type="info" title="Note finale">
+Le succès dans LOVE Hotel Simulator est une question d'équilibre. Traitez votre personnel aussi bien que vos clients, et votre hôtel prospérera comme la destination privilégiée de tous les types de personnages.
+</Callout>
+
+</Section>

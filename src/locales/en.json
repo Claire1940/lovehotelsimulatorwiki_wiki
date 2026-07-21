@@ -10,7 +10,15 @@
       "twitterDescription": "LOVE Hotel Simulator Wiki provides hotel management guides, room customization tips, staff strategies, walkthroughs and gameplay information for Steam players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "rooms": "Rooms",
+    "management": "Management",
+    "characters": "Characters",
+    "reviews": "Reviews",
+    "content": "Content"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -377,125 +385,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "LOVE Hotel Simulator Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced hotel management strategies. Master building, staffing, and growth.",
-      "metaTitle": "LOVE Hotel Simulator Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete LOVE Hotel Simulator guides covering beginner tips, hotel management, room customization, staff strategies, and expert tactics for growing your business.",
+    "guide": {
+      "title": "LOVE Hotel Simulator Guide",
+      "description": "Complete LOVE Hotel Simulator guides covering gameplay mechanics, hotel management, room customization, and guest strategies from beginner basics to advanced tactics.",
+      "metaTitle": "LOVE Hotel Simulator Guide - Walkthroughs, Tips & Strategies",
+      "metaDescription": "Master LOVE Hotel Simulator with complete guides. Learn gameplay mechanics, hotel management, room customization, staff strategies, and expert tips for growing your business.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, hotel management strategies, and room customization. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive walkthroughs covering every aspect of LOVE Hotel Simulator, from your first night running the hotel to advanced management strategies. Learn core mechanics, guest handling, and room optimization step by step.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand hotel management systems and avoid common beginner mistakes",
+        "step1Description": "Understand hotel management systems, guest satisfaction, and daily operations to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to grow and profit in your love hotel",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for staffing, customization, and expansion"
+        "step2Description": "Follow proven progression paths to unlock rooms, staff, and special guests efficiently",
+        "step3Title": "Master Advanced Strategies",
+        "step3Description": "Develop expert tactics for staffing, customization, and expanding your love hotel empire"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
+    "release": {
+      "title": "LOVE Hotel Simulator Release Info",
+      "description": "Latest LOVE Hotel Simulator release date, Steam availability, version updates, and official trailers. Track every launch detail and patch note.",
+      "metaTitle": "LOVE Hotel Simulator Release Date, Steam & Updates",
+      "metaDescription": "Stay updated on LOVE Hotel Simulator release date, Steam launch, version updates, and official trailers. Get the latest patch notes and launch details here.",
+      "categoryLabel": "RELEASE & UPDATES",
+      "whatIs": "What is Release Info?",
+      "whatIsDescription": "Everything about the LOVE Hotel Simulator launch timeline, including release date, platform availability on Steam, version history, and official trailers. Track when new content drops and what each update brings.",
+      "why": "Why follow release info?",
+      "whySteps": {
+        "step1Title": "Never Miss the Launch",
+        "step1Description": "Know the exact release date and Steam availability so you can play on day one",
+        "step2Title": "Track Every Update",
+        "step2Description": "Stay on top of version changes, new features, and content additions as the game evolves",
+        "step3Title": "Watch Official Trailers",
+        "step3Description": "Catch every trailer and gameplay reveal to see what is coming to the hotel"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Info"
+    },
+    "rooms": {
       "title": "LOVE Hotel Simulator Rooms",
-      "description": "Master room customization with layout design, furniture placement, decoration options, and upgrade strategies for better guest experiences.",
-      "metaTitle": "LOVE Hotel Simulator Rooms - Customization & Upgrades",
-      "metaDescription": "Master LOVE Hotel Simulator room customization. Learn layout design, furniture placement, decoration options, and upgrade strategies for better guest experiences.",
+      "description": "Master LOVE Hotel Simulator room customization with layout design, furniture placement, decoration options, theme selection, and upgrade strategies for better guest experiences.",
+      "metaTitle": "LOVE Hotel Simulator Rooms - Customization, Themes & Upgrades",
+      "metaDescription": "Master LOVE Hotel Simulator room customization. Learn layout design, furniture placement, decoration options, theme selection, and upgrade strategies for happier guests and higher income.",
       "categoryLabel": "ROOMS & CUSTOMIZATION",
       "whatIs": "What are Rooms?",
-      "whatIsDescription": "The room system lets you design guest spaces by placing furniture, choosing decorations, and upgrading facilities. Smart layouts improve both guest satisfaction and income.",
+      "whatIsDescription": "The room system lets you design guest spaces by placing furniture, choosing decorations, applying themes, and upgrading facilities. Smart layouts and themed suites improve both guest satisfaction and your nightly revenue.",
       "why": "Why customize rooms?",
       "whySteps": {
         "step1Title": "Attract More Guests",
-        "step1Description": "Design appealing rooms that draw in customers and improve satisfaction",
+        "step1Description": "Design appealing themed rooms that draw in customers and boost satisfaction ratings",
         "step2Title": "Increase Income",
-        "step2Description": "Upgrade facilities and decorations to raise room value and revenue",
+        "step2Description": "Upgrade facilities and decorations to raise room value and nightly revenue",
         "step3Title": "Optimize Layouts",
-        "step3Description": "Arrange spaces for efficient service flow and better guest comfort"
+        "step3Description": "Arrange spaces for efficient service flow, privacy, and better guest comfort"
       },
       "featured": "Featured & Essential",
       "all": "All Room Guides"
     },
-    "items": {
-      "title": "LOVE Hotel Simulator Items",
-      "description": "Detailed item guides covering furniture, decorations, upgrades, and equipment with usage tips for better hotel management.",
-      "metaTitle": "LOVE Hotel Simulator Items - Furniture, Decor & Upgrades",
-      "metaDescription": "Complete item database for LOVE Hotel Simulator including furniture, decorations, upgrades, and equipment. Learn how to use every item effectively.",
-      "categoryLabel": "ITEMS & FURNITURE",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for furniture, decorations, upgrades, and functional items. Learn placement strategies, upgrade paths, and optimal combinations.",
-      "why": "Why check item guides?",
+    "management": {
+      "title": "LOVE Hotel Simulator Management",
+      "description": "LOVE Hotel Simulator hotel management guides covering upgrades, expansion, staffing, pricing, and money-making strategies to grow a profitable love hotel business.",
+      "metaTitle": "LOVE Hotel Simulator Management - Upgrades, Expansion & Money",
+      "metaDescription": "Run a profitable love hotel with LOVE Hotel Simulator management guides. Master upgrades, expansion, staffing, pricing, and money-making strategies to grow your business.",
+      "categoryLabel": "MANAGEMENT & GROWTH",
+      "whatIs": "What is Management?",
+      "whatIsDescription": "The management layer of LOVE Hotel Simulator covers how you run the business side: upgrading facilities, expanding the building, hiring and scheduling staff, setting room prices, and maximizing daily profit.",
+      "why": "Why focus on management?",
       "whySteps": {
-        "step1Title": "Choose the Right Furniture",
-        "step1Description": "Discover which decorations and furniture give the best guest experience",
-        "step2Title": "Optimize Upgrades",
-        "step2Description": "Pick the best upgrades for your playstyle and progression stage",
-        "step3Title": "Improve Service",
-        "step3Description": "Equip facilities that keep guests happy and operations smooth"
+        "step1Title": "Grow Your Revenue",
+        "step1Description": "Apply pricing and upgrade strategies that multiply your daily income",
+        "step2Title": "Expand Smartly",
+        "step2Description": "Unlock new wings and rooms in the right order to scale without going broke",
+        "step3Title": "Build Efficient Teams",
+        "step3Description": "Hire and schedule the right staff to keep operations smooth and guests happy"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Management Guides"
     },
-    "biomes": {
-      "title": "LOVE Hotel Simulator Areas",
-      "description": "Explore hotel areas, room types, facility zones, and management tips for each section of your love hotel.",
-      "metaTitle": "LOVE Hotel Simulator Areas - Hotel Zones & Facilities",
-      "metaDescription": "Explore LOVE Hotel Simulator areas including guest rooms, service zones, and facility types. Learn what to expect and how to optimize each section.",
-      "categoryLabel": "HOTEL AREAS",
-      "whatIs": "What are Areas?",
-      "whatIsDescription": "Guides to different hotel areas, room types, facility zones, and service sections. Learn what to expect and how to prepare each part of your hotel.",
-      "why": "Why explore areas?",
+    "characters": {
+      "title": "LOVE Hotel Simulator Characters",
+      "description": "LOVE Hotel Simulator characters, guests, and staff guide. Meet every guest type, learn their preferences, and discover the staff who keep your hotel running.",
+      "metaTitle": "LOVE Hotel Simulator Characters, Guests & Staff",
+      "metaDescription": "Explore every LOVE Hotel Simulator character, guest type, and staff role. Learn guest preferences, special visitors, and the team that keeps your love hotel running smoothly.",
+      "categoryLabel": "CHARACTERS & GUESTS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Characters in LOVE Hotel Simulator include the guests who check in (each with unique preferences and personalities), special visitors like Astronauts and Devils, and the staff you hire to run daily operations.",
+      "why": "Why learn the characters?",
       "whySteps": {
-        "step1Title": "Find Opportunities",
-        "step1Description": "Locate the best zones for upgrades and new facilities",
-        "step2Title": "Avoid Bottlenecks",
-        "step2Description": "Understand service flow and prevent operational slowdowns",
-        "step3Title": "Plan Expansion",
-        "step3Description": "Prepare the right facilities for each new area you open"
+        "step1Title": "Serve Guests Better",
+        "step1Description": "Understand each guest type's preferences to deliver the right rooms and services",
+        "step2Title": "Unlock Special Visitors",
+        "step2Description": "Discover how to attract rare guests who bring bonus rewards and unique events",
+        "step3Title": "Build the Right Staff",
+        "step3Description": "Learn each staff role so you hire the team that matches your hotel's needs"
       },
       "featured": "Featured & Essential",
-      "all": "All Areas"
+      "all": "All Character Guides"
     },
-    "building": {
-      "title": "LOVE Hotel Simulator Building",
-      "description": "Master hotel building, expansion, construction, and layout management to grow your love hotel business.",
-      "metaTitle": "LOVE Hotel Simulator Building - Construction & Expansion",
-      "metaDescription": "Master LOVE Hotel Simulator building with hotel construction, expansion planning, layout management, and creative building techniques.",
-      "categoryLabel": "BUILDING & EXPANSION",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to hotel construction, expansion, layout management, and creative building. Learn to grow your love hotel into a thriving business.",
-      "why": "Why build and expand?",
+    "reviews": {
+      "title": "LOVE Hotel Simulator Reviews",
+      "description": "LOVE Hotel Simulator reviews and gameplay impressions. Read what critics and players say about the hotel sim, its mechanics, and whether it is worth your time.",
+      "metaTitle": "LOVE Hotel Simulator Reviews - Gameplay & Worth It?",
+      "metaDescription": "Read LOVE Hotel Simulator reviews and gameplay impressions. Find out what critics and players think about the mechanics, content, and whether the hotel sim is worth playing.",
+      "categoryLabel": "REVIEWS & IMPRESSIONS",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Reviews collect critic and player impressions of LOVE Hotel Simulator, covering gameplay quality, depth of the hotel management mechanics, content value, and the overall experience of running your own love hotel.",
+      "why": "Why read reviews?",
       "whySteps": {
-        "step1Title": "Create More Space",
-        "step1Description": "Establish new rooms and facilities for more guests",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize expansion so costs stay under control",
-        "step3Title": "Unlock Features",
-        "step3Description": "Access advanced management options as your hotel grows"
+        "step1Title": "Decide Before You Buy",
+        "step1Description": "Get a balanced picture of strengths and weaknesses before purchasing on Steam",
+        "step2Title": "See Real Gameplay",
+        "step2Description": "Watch gameplay review impressions to judge whether the loop matches your taste",
+        "step3Title": "Gauge Lasting Value",
+        "step3Description": "Understand the content depth and replayability to know if it stays fun long-term"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Reviews"
     },
-    "support": {
-      "title": "LOVE Hotel Simulator Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "LOVE Hotel Simulator Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for LOVE Hotel Simulator including system requirements, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, and common issues. Get help with system requirements and settings.",
-      "why": "Why check support?",
+    "content": {
+      "title": "LOVE Hotel Simulator Content",
+      "description": "LOVE Hotel Simulator video content, full gameplay walkthroughs, first looks, and PC gameplay captures. Watch the hotel sim in action before and after release.",
+      "metaTitle": "LOVE Hotel Simulator Gameplay Videos & Full Playthroughs",
+      "metaDescription": "Watch LOVE Hotel Simulator content including full gameplay walkthroughs, first looks, and PC gameplay captures. See the hotel simulation in action across every stage of the game.",
+      "categoryLabel": "VIDEOS & GAMEPLAY",
+      "whatIs": "What is Content?",
+      "whatIsDescription": "The content section gathers video coverage of LOVE Hotel Simulator, including full gameplay walkthroughs, first-look impressions, and PC gameplay captures that show the hotel sim running from opening night to late-game management.",
+      "why": "Why watch the content?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve performance problems and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about system requirements and supported hardware"
+        "step1Title": "See the Game in Action",
+        "step1Description": "Watch real gameplay to judge pacing, visuals, and management depth before playing",
+        "step2Title": "Follow Full Playthroughs",
+        "step2Description": "Use complete walkthroughs to preview progression and decide your own strategy",
+        "step3Title": "Catch First Looks",
+        "step3Description": "Get early impressions and footage from previews and demo builds"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Content"
     }
   }
 }

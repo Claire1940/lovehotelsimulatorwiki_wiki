@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Leitfaden",
+    "release": "Release",
+    "rooms": "Zimmer",
+    "management": "Verwaltung",
+    "characters": "Charaktere",
+    "reviews": "Rezensionen",
+    "content": "Inhalt"
+  }
+}

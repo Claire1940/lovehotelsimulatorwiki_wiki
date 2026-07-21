@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Test du gameplay de Love Hotel Simulator : Analyse de gestion 2026",
+  description: "Explorez notre test détaillé de Love Hotel Simulator. Découvrez la personnalisation des chambres, la gestion du personnel et la progression de l'entreprise dans ce jeu de simulation.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Gameplay+Review",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de Love Hotel Simulator"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Gameplay principal** : Gestion à la première personne axée sur la **personnalisation des chambres** et la satisfaction des clients.
+- **Boucle principale** : Construire des chambres, embaucher du personnel, gérer les demandes des clients et améliorer les installations de l'hôtel.
+- **Meilleure stratégie** : Prioriser les **meubles à haut rendement** dès le départ pour maximiser les revenus et s'agrandir plus rapidement.
+- **Caractéristique clé** : Options de personnalisation poussées pour des environnements d'hôtel romantiques et luxueux.
+- **Plateforme** : Actuellement disponible en tant que jeu de simulation sur **Steam** pour PC.
+</Callout>
+
+<Section icon={Map} title="Test du gameplay de Love Hotel Simulator : Mécanismes de base">
+
+Ce **test de Love Hotel Simulator** révèle une expérience de gestion à la première personne profonde qui se distingue des simulateurs traditionnels en vue de dessus. Développé par Pocket Rocket Studio et publié par Taboo Tales, ce titre place les joueurs directement dans la peau d'un propriétaire d'hôtel responsable de chaque détail d'un établissement romantique. Du hall éclairé au néon aux détails complexes de la disposition des suites, le jeu met l'accent sur l'immersion et le contrôle esthétique.
+
+Les joueurs commencent avec un établissement modeste et doivent naviguer à travers les complexités de l'industrie hôtelière. La boucle de gameplay est agréablement rythmée : vous concevez une chambre, accueillez des clients, collectez des revenus et réinvestissez ces bénéfices dans de meilleurs équipements. Contrairement aux simulations d'hôtels génériques, l'accent est mis ici sur la création d'une atmosphère spécifique — romantique, luxueuse et intime.
+
+| Fonctionnalité | Description | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| **Vue à la première personne** | Contrôle direct des mouvements et des interactions | Grande immersion et décoration détaillée |
+| **Gestion en temps réel** | Les clients arrivent et partent selon un cycle en direct | Nécessite une réaction rapide aux besoins de service |
+| **Économie dynamique** | Les prix fluctuent en fonction de la note de l'hôtel | Influence la stratégie d'investissement à long terme |
+| **IA des clients** | Les PNJ ont des préférences et des humeurs spécifiques | Affecte les scores de satisfaction et les pourboires |
+| **Système de construction** | Placement sur grille avec rotation libre | Permet des configurations de pièces très créatives |
+
+<Callout type="tip" title="Aperçu de gestion">
+Gardez toujours un œil sur la « Jauge d'ambiance » de votre hôtel. Cette statistique cachée, influencée par l'éclairage et les choix de décoration, a un impact significatif sur les pourboires que les clients laissent après leur séjour.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation des chambres et stratégies de conception">
+
+La personnalisation est au cœur de l'expérience. Dans ce **test de Love Hotel Simulator**, nous avons constaté que la grande variété de meubles et d'éléments décoratifs permet de créer des chambres à thèmes distincts. Que vous visiez une suite de luxe moderne ou une esthétique romantique traditionnelle, les outils de construction sont intuitifs mais puissants.
+
+Améliorer les chambres n'est pas seulement une question d'esthétique ; c'est une nécessité financière. Des meubles de meilleure qualité augmentent le tarif de base de la chambre, tandis que des combinaisons spécifiques d'objets peuvent déclencher des « Bonus d'ensemble » qui augmentent la satisfaction des clients.
+
+<CardGrid cols={3}>
+  <Card title="Configuration économique">
+    - **Faible coût initial**
+    - Axé sur le confort de base
+    - Taux de rotation élevé
+  </Card>
+  <Card title="Suite de luxe">
+    - **Meubles haut de gamme**
+    - Tarifs de nuit élevés
+    - Clients exigeants
+  </Card>
+  <Card title="Chambres à thème">
+    - **Décorations uniques**
+    - Bonus d'attractivité
+    - Niches de clients spécifiques
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="room-essentials"
+  title="Éléments essentiels de la chambre :"
+  items={[
+    "Lit de haute qualité avec draps personnalisables",
+    "Système d'éclairage d'ambiance avec couleurs réglables",
+    "Installations de salle de bain privées avec améliorations de luxe",
+    "Systèmes de divertissement (télévision, systèmes audio)",
+    "Éléments décoratifs comme des enseignes lumineuses et des plantes"
+  ]}
+/>
+
+<Callout type="success" title="Maximisation des profits">
+Investir tôt dans l'« Éclairage d'ambiance » offre l'un des meilleurs retours sur investissement. C'est relativement bon marché mais cela améliore considérablement la note globale de la chambre.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion du personnel et efficacité opérationnelle">
+
+À mesure que votre hôtel s'agrandit, vous ne pouvez plus gérer chaque tâche seul. L'embauche et la gestion du personnel deviennent une partie essentielle de la stratégie de milieu de partie. Chaque employé possède des statistiques différentes, telles que la vitesse, l'efficacité du nettoyage et le charisme. Équilibrer votre masse salariale tout en maintenant un niveau de service élevé est le principal défi du système de gestion.
+
+| Rôle du personnel | Tâche principale | Attribut clé |
+| :--- | :--- | :--- |
+| **Réceptionniste** | Enregistrement des clients / Gestion des paiements | Charisme (augmente les pourboires) |
+| **Agent d'entretien** | Nettoyage des chambres / Maintenance | Vitesse (rotation plus rapide des chambres) |
+| **Sécurité** | Maintien de l'ordre / Gestion des incidents | Force (diminue les incidents) |
+| **Décorateur** | Améliorations passives de la qualité des chambres | Créativité (stimule l'ambiance) |
+
+<Callout type="warning" title="Moral du personnel">
+Un moral bas du personnel entraîne des vitesses de travail plus lentes et plus d'erreurs. Veillez à fournir une salle de pause et des salaires compétitifs pour maintenir l'efficacité de votre équipe.
+</Callout>
+
+La gestion des opérations quotidiennes implique plus que la simple embauche. Vous devez attribuer des zones spécifiques au personnel pour vous assurer que les zones à fort trafic ne sont jamais négligées. Une chambre non nettoyée est le moyen le plus rapide de faire chuter la réputation de votre hôtel sur la plateforme d'avis intégrée au jeu.
+
+</Section>
+
+<Section icon={Trophy} title="Guide de progression : Du petit motel à l'hôtel de luxe">
+
+Progresser dans Love Hotel Simulator nécessite un équilibre entre une expansion agressive et une gestion prudente des ressources. Suivre un parcours de croissance structuré vous évite de faire faillite lors des premières étapes vulnérables de votre entreprise.
+
+<Steps>
+  <Step num="1" title="La phase de fondation">
+    Commencez par construire deux chambres de base. Privilégiez la fonctionnalité à la forme. Utilisez le capital initial pour embaucher un agent d'entretien à temps partiel afin de pouvoir vous concentrer sur l'enregistrement des clients et le marketing.
+  </Step>
+  <Step num="2" title="Construction de la réputation">
+    Réinvestissez vos premiers 5 000 $ dans l'amélioration des chambres. Remplacez les lits de base par des versions de « Catégorie Confort ». Cela débloquera la note d'hôtel 2 étoiles, vous permettant de facturer 20 % de plus par séjour.
+  </Step>
+  <Step num="3" title="Expansion et automatisation">
+    Une fois que vous avez quatre chambres de haute qualité, embauchez un réceptionniste à plein temps. Cela vous libère pour passer plus souvent en « Mode Construction » afin de planifier le deuxième étage et des configurations de suites plus grandes.
+  </Step>
+  <Step num="4" title="Statut d'élite">
+    Débloquez les objets de la « Catégorie Luxe ». Ceux-ci nécessitent un investissement important mais attirent des clients haut de gamme qui offrent d'énormes gains de réputation et des déblocages d'objets rares.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Contenu débloquable">
+La plupart des meilleurs meubles sont verrouillés derrière des « Succès clés ». Suivre vos progrès dans le menu de gestion est essentiel pour la planification à long terme.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Performances techniques et configuration requise">
+
+D'après notre **test de Love Hotel Simulator**, le jeu est bien optimisé pour le matériel PC moderne. Le moteur d'éclairage, crucial pour l'atmosphère du jeu, fonctionne de manière fluide même dans les hôtels disposant de dizaines de sources lumineuses actives. Cependant, les joueurs disposant d'un matériel plus ancien doivent faire attention au paramètre « Qualité des ombres », qui est l'option la plus gourmande en ressources.
+
+| Composant | Configuration minimale | Configuration recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processeur** | Intel i5-4460 / AMD FX-6300 | Intel i7-8700 / AMD Ryzen 5 3600 |
+| **Mémoire** | 8 GB RAM | 16 GB RAM |
+| **Carte graphique** | GTX 760 / Radeon R7 260x | RTX 2060 / Radeon RX 5600 XT |
+| **DirectX** | Version 11 | Version 12 |
+| **Stockage** | 10 Go d'espace disponible | 15 Go (SSD recommandé) |
+
+<Callout type="tip" title="Conseil de performance">
+Si vous rencontrez des baisses de framerate dans un grand hôtel, essayez de désactiver les « Reflets en temps réel » dans le menu des paramètres. Cela offre un gain de FPS significatif sans gâcher l'esthétique.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Verdict final et stratégie de jeu">
+
+Love Hotel Simulator réussit à offrir une expérience de simulation de niche mais très soignée. La combinaison d'interactions à la première personne et de mécanismes de gestion profonds crée une boucle de gameplay addictive de type « encore un jour de plus ». Bien que le début de partie puisse sembler un peu lent, la récompense de voir un hôtel haut de gamme entièrement personnalisé fonctionner comme une machine bien huilée est immense.
+
+| Aspect | Note | Résumé |
+| :--- | :--- | :--- |
+| **Graphismes** | ★★★★☆ | Excellent éclairage et atmosphère |
+| **Gestion** | ★★★★☆ | Systèmes profonds avec des choix significatifs |
+| **Personnalisation** | ★★★★★ | Meilleurs meubles et outils de configuration de leur catégorie |
+| **Difficulté** | ★★★☆☆ | Progression équitable avec des courbes gérables |
+
+<FAQ items={[
+  {
+    question: "Love Hotel Simulator est-il difficile pour les débutants ?",
+    answer: "Le jeu propose un didacticiel utile et un système de progression graduel, ce qui le rend accessible aux nouveaux venus tout en offrant de la profondeur aux joueurs de simulation chevronnés."
+  },
+  {
+    question: "Puis-je jouer à Love Hotel Simulator sur un ordinateur portable ?",
+    answer: "Oui, tant que votre ordinateur portable répond à la configuration graphique minimale équivalente à une GTX 760. Réduire la résolution peut aider sur les processeurs graphiques intégrés."
+  },
+  {
+    question: "Comment augmenter rapidement le nombre d'étoiles de mon hôtel ?",
+    answer: "Concentrez-vous sur la satisfaction des clients en gardant les chambres propres et en investissant dans des objets d'« Ambiance » de haute qualité comme des néons et des revêtements de sol haut de gamme."
+  },
+  {
+    question: "Y a-t-il différentes fins dans le jeu ?",
+    answer: "La progression est ouverte, mais atteindre le « Statut d'élite » débloque du contenu de fin de jeu unique et des trophées décoratifs spéciaux pour votre hôtel."
+  }
+]} />
+
+</Section>

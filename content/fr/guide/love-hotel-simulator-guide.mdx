@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide Love Hotel Simulator : Stratégies de Gestion et de Chambres 2026",
+  description: "Maîtrisez Love Hotel Simulator avec notre guide 2026. Apprenez la gestion du personnel, la progression des chambres et comment débloquer des invités spéciaux comme les Astronautes et les Diables.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Love+Hotel+Simulator+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Love Hotel Simulator",
+  keywords: "love hotel simulator, guide, gestion, chambres, stratégies, invités spéciaux"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Guide Love Hotel Simulator** : Cet article couvre les mécaniques essentielles pour construire et gérer un love hotel de haute réputation.
+- **Progression des Étoiles** : Débloquez de nouvelles chambres et du personnel en augmentant le **Classement par Étoiles** de votre hôtel grâce à des clients satisfaits.
+- **Gestion du Personnel** : Équilibrez votre main-d'œuvre comprenant les **Chasseurs**, les **Agents de nettoyage** et les **Stalkers** automatisés.
+- **Invités Spéciaux** : Répondez aux besoins de visiteurs uniques comme les **Sky Fairs** et les **Astronautes** pour gagner massivement du Space Cash.
+- **Réapprovisionnement** : Gardez toujours un œil sur les **Distributeurs automatiques** et les **Distributeurs de préservatifs** pour éviter les clients mécontents.
+</Callout>
+
+<Section icon={Map} title="Mécaniques de Base du Guide Love Hotel Simulator">
+
+Gérer un établissement prospère dans cette simulation nécessite un équilibre délicat entre infrastructure et service. Au début de votre aventure, votre objectif principal est de construire des chambres de base et d'embaucher le personnel nécessaire pour assurer le bon fonctionnement des opérations. Le jeu utilise un système de contrôle de style NES, le rendant accessible mais profondément stratégique à mesure que vous développez votre hôtel verticalement ou même en sous-sol.
+
+<CardGrid cols={3}>
+  <Card title="Expansion Verticale">
+    - **Construire des Étages** : Ajoutez de nouveaux niveaux pour accueillir plus de chambres.
+    - **Ascenseurs** : Ils sont automatiques, permettant aux clients de se déplacer librement.
+    - **Gestion de l'Espace** : Placez efficacement les services utilitaires près des zones à fort passage.
+  </Card>
+  <Card title="Satisfaction des Clients">
+    - **Variété des Chambres** : Différents clients préfèrent des thèmes de chambres spécifiques.
+    - **Propreté** : Les chambres sales empêchent de nouveaux enregistrements et font baisser la note.
+    - **Disponibilité** : Assurez-vous que les commodités sont toujours approvisionnées.
+  </Card>
+  <Card title="Classement par Étoiles">
+    - **Jalons** : Atteignez 6 étoiles pour devenir le meilleur hôtel du monde.
+    - **Déblocages** : Chaque niveau d'étoile offre de nouvelles chambres et types de personnel.
+    - **Influence** : Les invités de haut rang comme les Sky Fairs augmentent votre renommée plus rapidement.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de Construction Initial">
+Au début, concentrez-vous sur des chambres à haute densité et à faible coût comme les suites **Missionnaire** ou **Spooning**. Elles offrent un flux de revenus régulier en début de jeu sans frais de maintenance élevés.
+</Callout>
+
+### Installations de Service Essentielles
+
+Chaque étage a besoin de plus que de simples lits. Les services sont l'épine dorsale de la fonctionnalité de votre hôtel.
+
+| Installation | Fonction | Coût | Étoiles Requises |
+| :--- | :--- | :--- | :--- |
+| Placard Utilitaire | Stocke les produits de nettoyage pour le personnel | Bas | 1 Étoile |
+| Distributeur Automatique | Fournit de la nourriture aux clients affamés | 500 | 1 Étoile |
+| Distributeur de Préservatifs | Vend des articles essentiels pour des rapports protégés | Bas | 2 Étoiles |
+| Salle de Spa | Augmente le bonheur des clients et leur temps de séjour | Élevé | 5 Étoiles |
+
+</Section>
+
+<Section icon={Shield} title="Gestion du Personnel et Optimisation de la Main-d'œuvre">
+
+Les membres de votre personnel sont le moteur de votre opération. Sans eux, les chambres restent sales, les clients attendent à l'entrée et les machines tombent en panne. Dans ce **guide love hotel simulator**, nous soulignons que l'embauche du bon équilibre d'employés est plus importante que d'en embaucher simplement le plus possible.
+
+| Type de Personnel | Rôle | Coût par Minute | Priorité |
+| :--- | :--- | :--- | :--- |
+| Chasseur | Dirige les clients vers leurs chambres assignées | 50 $ | Haute (Début de jeu) |
+| Agent de Nettoyage | Désinfecte les chambres après le départ des clients | 80 $ | Critique |
+| Maintenance | Répare les machines et les installations en panne | 200 $ | Modérée |
+| Cuisinier | Prépare les repas pour la salle à manger | Variable | Fin de jeu |
+| Stalker | Réapprovisionne automatiquement toutes les machines | Élevé | Fin de jeu |
+
+<Callout type="warning" title="Efficacité des Travailleurs">
+Si vous voyez des clients attendre trop longtemps au rez-de-chaussée, vos Chasseurs sont débordés. Augmentez le nombre de Chasseurs ou placez plus de Placards Utilitaires aux étages supérieurs pour réduire le temps de trajet des Agents de nettoyage.
+</Callout>
+
+### Le Rôle du Stalker
+Le Stalker est une unité unique de fin de jeu débloquée à 4 étoiles. Contrairement aux autres membres du personnel, le travail principal du Stalker est l'automatisation. Ils parcourent l'hôtel et remplissent automatiquement les Distributeurs Automatiques et les Distributeurs de Préservatifs. Une fois que vous avez quelques Stalkers, vous n'avez plus besoin de cliquer manuellement sur les machines pour les réapprovisionner, ce qui vous permet de vous concentrer sur l'expansion.
+
+</Section>
+
+<Section icon={Sparkles} title="Types de Chambres et Fétiches des Clients">
+
+La progression dans Love Hotel Simulator est directement liée à la variété des suites que vous proposez. À mesure que vous gagnez des étoiles, vous débloquez des chambres spécialisées qui répondent aux "fétiches" ou aux préférences spécifiques de votre clientèle.
+
+<Steps>
+  <Step num="1" title="Suites de Base">
+    Commencez par les chambres **Missionnaire** et **Spooning**. Elles sont petites, peu coûteuses à construire et satisfont la population générale.
+  </Step>
+  <Step num="2" title="Environnements Thématiques">
+    Débloquez les suites **Tropicale** et **Ballon**. Elles attirent des clients plus riches et sont requises pour les invités Sky Fair.
+  </Step>
+  <Step num="3" title="Luxe & Spécialité">
+    Construisez les suites **Chocolat**, **Paradis** et **Banane**. Ce sont de grandes chambres coûteuses qui génèrent des revenus massifs par séjour.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Revenus de Haut Niveau">
+La **Suite Banane** est l'une des chambres les plus rentables du jeu mais nécessite 5 étoiles pour être débloquée. Assurez-vous toujours d'avoir un Distributeur de Préservatifs au même étage que ces suites de luxe.
+</Callout>
+
+### Tableau Comparatif des Chambres
+
+| Type de Chambre | Taille | Niveau d'Étoiles | Public Cible |
+| :--- | :--- | :--- | :--- |
+| Missionnaire | Petite | 1 | Clients Généraux |
+| Spooning | Petite | 1 | Clients Généraux |
+| Ballon | Moyenne | 2 | Sky Fairs |
+| Chocolat | Moyenne | 3 | Progéniture du Diable |
+| Paradis | Grande | 4 | Progéniture du Diable |
+| Tropicale | Grande | 5 | Astronautes |
+| Banane | Grande | 5 | Astronautes |
+
+</Section>
+
+<Section icon={Target} title="Attirer des Invités Spéciaux et des VIP">
+
+À mesure que votre hôtel grandit, vous attirerez des entités non humaines avec des besoins spécifiques et un fort pouvoir d'achat. Comprendre ces invités est la clé pour atteindre la note maximale de 6 étoiles.
+
+**Sky Fairs :**
+Ces êtres influents arrivent via une entrée secondaire aux étages supérieurs. Ils utilisent exclusivement les suites **Missionnaire** et **Ballon**. Leur offrir un bon moment est le moyen le plus rapide de booster votre réputation en milieu de jeu.
+
+**Astronautes :**
+Arrivant avec du "Space Cash", ces invités sont extrêmement riches. Ils ne séjournent que dans les suites **Tropicale** et **Banane**. Comme ils paient nettement plus que les humains ordinaires, vous devriez prioriser la construction de ces chambres une fois que vous atteignez 5 étoiles.
+
+**Progéniture du Diable :**
+Ces créatures excitées émergent du sol si vous creusez assez profondément. Elles préfèrent les suites **Chocolat** et **Paradis**. Curieusement, elles n'apportent jamais leurs propres préservatifs, donc avoir un distributeur bien approvisionné à proximité est obligatoire pour leur satisfaction.
+
+<Callout type="info" title="Exploration Souterraine">
+Ne vous contentez pas de construire vers le haut ! Creuser sous terre peut révéler des coffres au trésor enfouis valant jusqu'à 20 000 $, ce qui peut financer votre prochain étage entier de suites de luxe.
+</Callout>
+
+| Type d'Invité | Chambre Préférée | Type de Paiement | Note Spéciale |
+| :--- | :--- | :--- | :--- |
+| Sky Fairs | Ballon / Missionnaire | Standard | Haute Influence |
+| Astronautes | Banane / Tropicale | Space Cash | Très Riches |
+| Progéniture du Diable | Chocolat / Paradis | Standard | N'apportent jamais de préservatifs |
+
+</Section>
+
+<Section icon={Trophy} title="Optimisation Financière et Objectifs de Fin de Jeu">
+
+Pour atteindre l'objectif ultime d'être le meilleur love hotel au monde, vous devez gérer vos finances avec soin. La plus grande ponction sur vos ressources sera la facture d'électricité et les salaires du personnel.
+
+**Gérer la Facture d'Électricité :**
+Chaque chambre et machine que vous construisez s'ajoute à votre facture mensuelle. Si vos revenus ne suivent pas, vous ferez faillite. Utilisez la fonction "Avance Rapide" avec parcimonie jusqu'à ce que vous ayez assez de chambres pour assurer un flux constant d'argent.
+
+**Optimisation de la Cuisine et de la Salle à Manger :**
+À 3 étoiles, vous débloquez la Cuisine et la Salle à Manger.
+- **Cuisiniers** : Requis pour faire fonctionner la cuisine.
+- **Congélateurs** : Débloqués à 4 étoiles ; ils accélèrent considérablement le temps de cuisson.
+- **Salles à Manger** : Les clients les visiteront lorsqu'ils auront faim, offrant une source de revenus supplémentaire en dehors de la location de chambres.
+
+<Checklist
+  id="end-game-checklist"
+  title="Liste de contrôle vers les 6 Étoiles :"
+  items={[
+    "Embaucher au moins 5 Stalkers pour automatiser le réapprovisionnement",
+    "Construire au moins une Salle de Spa tous les trois étages",
+    "Assurer une couverture de 100% en Distributeurs de Préservatifs pour la Progéniture du Diable",
+    "Creuser à la profondeur maximale pour trouver tous les trésors enfouis",
+    "Atteindre un équilibre de 15 Chasseurs et 20 Agents de nettoyage pour une efficacité maximale"
+  ]}
+/>
+
+<Callout type="tip" title="Plafond de Trésorerie Maximum">
+Le jeu plafonne votre argent visible à 999 999 $. Une fois ce point atteint, l'argent n'est plus un problème — concentrez-vous entièrement sur l'esthétique et la maximisation du bonheur des clients pour déclencher le succès final des 6 étoiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ du Guide Love Hotel Simulator">
+
+<FAQ items={[
+  {
+    question: "Comment augmenter le classement par étoiles de mon hôtel ?",
+    answer: "Le classement par étoiles augmente en fonction de la satisfaction totale des clients et de la diversité de vos chambres. Construire de nouveaux types de suites et s'assurer que les chambres sont nettoyées rapidement sont les meilleurs moyens de progresser."
+  },
+  {
+    question: "Quelle est la meilleure façon de gérer la Progéniture du Diable ?",
+    answer: "La Progéniture du Diable n'utilise que les suites Chocolat et Paradis. Comme ils n'apportent pas de préservatifs, vous devez placer un Distributeur de Préservatifs directement devant leurs chambres pour éviter qu'ils ne partent mécontents."
+  },
+  {
+    question: "Puis-je automatiser le réapprovisionnement des distributeurs ?",
+    answer: "Oui. Une fois que vous atteignez 4 étoiles, vous pouvez embaucher des Stalkers. Les Stalkers se déplaceront automatiquement dans l'hôtel et rempliront tout distributeur automatique ou de préservatifs vide."
+  },
+  {
+    question: "Que se passe-t-il si la facture d'électricité est trop élevée ?",
+    answer: "Si vos dépenses dépassent vos revenus, votre argent diminuera. Assurez-vous toujours d'avoir un ratio chambres/personnel élevé pour maintenir un flux de trésorerie positif."
+  }
+]} />
+
+</Section>

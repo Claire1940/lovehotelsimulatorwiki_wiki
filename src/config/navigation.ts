@@ -1,19 +1,36 @@
 import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Rocket,
+	BedDouble,
+	Briefcase,
+	Users,
+	Star,
+	Video,
+} from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
+	key: string // 用于翻译键，如 'guide' -> t('nav.guide')
+	path: string // URL 路径，如 '/guide'
 	icon: LucideIcon // Lucide 图标组件
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置（Part3 阶段已清空，后续 Part 重建分类时会重新填充）
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// 导航配置 - LOVE Hotel Simulator（7 个内容分类）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+	{ key: 'release', path: '/release', icon: Rocket, isContentType: true },
+	{ key: 'rooms', path: '/rooms', icon: BedDouble, isContentType: true },
+	{ key: 'management', path: '/management', icon: Briefcase, isContentType: true },
+	{ key: 'characters', path: '/characters', icon: Users, isContentType: true },
+	{ key: 'reviews', path: '/reviews', icon: Star, isContentType: true },
+	{ key: 'content', path: '/content', icon: Video, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> ['codes', 'build', 'combat', 'guides']
+) // 移除开头的 '/' -> ['guide', 'release', 'rooms', 'management', 'characters', 'reviews', 'content']
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

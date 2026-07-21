@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "release": "リリース",
+    "rooms": "客室",
+    "management": "運営",
+    "characters": "キャラクター",
+    "reviews": "レビュー",
+    "content": "コンテンツ"
+  }
+}

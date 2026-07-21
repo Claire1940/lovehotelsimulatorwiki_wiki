@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Love Hotel Simulator Guide: 2026 Management- & Zimmerstrategien",
+  description: "Meistern Sie den Love Hotel Simulator mit unserem Guide für 2026. Erfahren Sie alles über Personalmanagement, Zimmerentwicklung und wie Sie Spezialgäste wie Astronauten und die Teufelsbrut freischalten.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Love+Hotel+Simulator+Guide",
+  date: "2026-07-21",
+  author: "Love Hotel Simulator Wiki-Team",
+  keywords: "Love Hotel Simulator, Guide, Management, Strategie, Zimmer, Spezialgäste"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Love Hotel Simulator Guide**: Dieser Artikel behandelt die wesentlichen Mechaniken zum Bau und Management eines hochbewerteten Love Hotels.
+- **Sterne-Fortschritt**: Schalten Sie neue Zimmer und Personal frei, indem Sie das **Sterne-Rating** Ihres Hotels durch zufriedene Kunden erhöhen.
+- **Personalmanagement**: Halten Sie die Balance in Ihrer Belegschaft, einschließlich **Pagen (Bellhops)**, **Reinigungskräften (Cleaners)** und den automatisierten **Stalkern**.
+- **Spezialgäste**: Bedienen Sie einzigartige Besucher wie **Sky Fairs** und **Astronauten**, um massives Space Cash zu verdienen.
+- **Auffüllen**: Behalten Sie **Verkaufsautomaten** und **Kondomautomaten** immer im Auge, um unzufriedene Kunden zu vermeiden.
+</Callout>
+
+<Section icon={Map} title="Kernmechaniken des Love Hotel Simulator Guides">
+
+Das Führen eines erfolgreichen Etablissements in dieser Simulation erfordert ein feines Gleichgewicht zwischen Infrastruktur und Service. Zu Beginn Ihrer Reise ist es Ihr Hauptziel, Basiszimmer zu bauen und das notwendige Personal einzustellen, um den Betrieb am Laufen zu halten. Das Spiel nutzt ein Steuerungsschema im NES-Stil, was es zugänglich und dennoch tiefgreifend strategisch macht, während Sie Ihr Hotel vertikal oder sogar unterirdisch erweitern.
+
+<CardGrid cols={3}>
+  <Card title="Vertikale Expansion">
+    - **Etagen bauen**: Füge neue Ebenen hinzu, um mehr Gästezimmer unterzubringen.
+    - **Aufzüge**: Diese funktionieren automatisch und ermöglichen den Gästen freie Bewegung.
+    - **Raummanagement**: Platziere Versorgungseinrichtungen effizient in der Nähe von stark frequentierten Bereichen.
+  </Card>
+  <Card title="Gästezufriedenheit">
+    - **Zimmervielfalt**: Verschiedene Gäste bevorzugen spezifische Zimmerthemen.
+    - **Sauberkeit**: Schmutzige Zimmer verhindern neue Check-ins und senken die Bewertung.
+    - **Verfügbarkeit**: Stellen Sie sicher, dass Annehmlichkeiten immer vorrätig sind.
+  </Card>
+  <Card title="Sterne-Ratings">
+    - **Meilensteine**: Erreichen Sie 6 Sterne, um das beste Hotel der Welt zu werden.
+    - **Freischaltungen**: Jedes Sterne-Level bietet neue Zimmer und Personal-Typen.
+    - **Einfluss**: Hochkarätige Gäste wie Sky Fairs steigern Ihren Ruhm schneller.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tipp für den ersten Bau">
+Konzentrieren Sie sich zu Beginn auf hochdichte, kostengünstige Zimmer wie die **Missionary**- oder **Spooning**-Suiten. Diese bieten einen stetigen Einkommensstrom in der Frühphase ohne hohe Wartungskosten.
+</Callout>
+
+### Grundlegende Serviceeinrichtungen
+
+Jede Etage braucht mehr als nur Betten. Dienstleistungen sind das Rückgrat der Funktionalität Ihres Hotels.
+
+| Einrichtung | Funktion | Kosten | Sterne-Anforderung |
+| :--- | :--- | :--- | :--- |
+| Versorgungsraum | Lagert Reinigungsmittel für das Personal | Niedrig | 1 Stern |
+| Verkaufsautomat | Bietet Essen für hungrige Gäste | 500 | 1 Stern |
+| Kondomautomat | Verkauft wichtige Artikel für geschützten Sex | Niedrig | 2 Sterne |
+| Wellnessraum | Erhöht die Gästezufriedenheit und Aufenthaltsdauer | Hoch | 5 Sterne |
+
+</Section>
+
+<Section icon={Shield} title="Personalmanagement und Optimierung der Belegschaft">
+
+Ihre Mitarbeiter sind das Lebenselixier Ihres Betriebs. Ohne sie bleiben die Zimmer schmutzig, die Gäste warten am Eingang und die Maschinen gehen kaputt. In diesem **Love Hotel Simulator Guide** betonen wir, dass die richtige Balance der Mitarbeiter wichtiger ist, als einfach so viele wie möglich einzustellen.
+
+| Personal-Typ | Rolle | Kosten pro Minute | Priorität |
+| :--- | :--- | :--- | :--- |
+| Page | Leitet Gäste zu ihren zugewiesenen Zimmern | $50 | Hoch (Frühphase) |
+| Reinigungskraft | Desinfiziert Zimmer nach der Abreise der Gäste | $80 | Kritisch |
+| Wartung | Repariert defekte Maschinen und Anlagen | $200 | Moderat |
+| Koch | Bereitet Mahlzeiten für den Speisesaal zu | Variabel | Spätphase |
+| Stalker | Füllt automatisch alle Automaten auf | Hoch | End-Game |
+
+<Callout type="warning" title="Arbeitseffizienz">
+Wenn Sie Gäste zu lange im Erdgeschoss warten sehen, sind Ihre Pagen überfordert. Erhöhen Sie die Anzahl der Pagen oder platzieren Sie mehr Versorgungsräume auf höheren Etagen, um die Laufwege für die Reinigungskräfte zu verkürzen.
+</Callout>
+
+### Die Rolle des Stalkers
+Der Stalker ist eine einzigartige Einheit für die Spätphase, die bei 4 Sternen freigeschaltet wird. Im Gegensatz zu anderem Personal besteht die Hauptaufgabe des Stalkers in der Automatisierung. Sie wandern durch das Hotel und füllen Verkaufs- und Kondomautomaten automatisch auf. Sobald Sie einige Stalker haben, müssen Sie die Automaten nicht mehr manuell zum Auffüllen anklicken, sodass Sie sich ganz auf die Expansion konzentrieren können.
+
+</Section>
+
+<Section icon={Sparkles} title="Zimmertypen und Gäste-Fetische">
+
+Der Fortschritt im Love Hotel Simulator ist direkt mit der Vielfalt der angebotenen Suiten verknüpft. Je mehr Sterne Sie verdienen, desto mehr spezialisierte Zimmer schalten Sie frei, die auf "Fetische" oder spezifische Vorlieben Ihrer Klientel zugeschnitten sind.
+
+<Steps>
+  <Step num="1" title="Basis-Suiten">
+    Beginnen Sie mit **Missionary**- und **Spooning**-Zimmern. Diese sind klein, günstig zu bauen und stellen die breite Masse zufrieden.
+  </Step>
+  <Step num="2" title="Themenwelten">
+    Schalten Sie **Tropical**- und **Balloon**-Suiten frei. Diese ziehen wohlhabendere Kunden an und sind für die Sky Fair-Gäste erforderlich.
+  </Step>
+  <Step num="3" title="Luxus & Spezialität">
+    Bauen Sie **Chocolate**-, **Heaven**- und **Banana**-Suiten. Dies sind große, teure Zimmer, die massive Einnahmen pro Aufenthalt generieren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Einnahmen der Oberklasse">
+Die **Banana Suite** ist eines der profitabelsten Zimmer im Spiel, erfordert aber 5 Sterne zur Freischaltung. Stellen Sie immer sicher, dass sich ein Kondomautomat auf der gleichen Etage wie diese Luxussuiten befindet.
+</Callout>
+
+### Zimmervergleichstabelle
+
+| Zimmertyp | Größe | Sterne-Level | Zielgruppe |
+| :--- | :--- | :--- | :--- |
+| Missionary | Klein | 1 | Allgemeine Gäste |
+| Spooning | Klein | 1 | Allgemeine Gäste |
+| Balloon | Mittel | 2 | Sky Fairs |
+| Chocolate | Mittel | 3 | Teufelsbrut |
+| Heaven | Groß | 4 | Teufelsbrut |
+| Tropical | Groß | 5 | Astronauten |
+| Banana | Groß | 5 | Astronauten |
+
+</Section>
+
+<Section icon={Target} title="Spezialgäste und VIPs anlocken">
+
+Wenn Ihr Hotel wächst, werden Sie nicht-menschliche Wesen mit spezifischen Bedürfnissen und hoher Kaufkraft anziehen. Das Verständnis dieser Gäste ist der Schlüssel zum Erreichen der maximalen 6-Sterne-Bewertung.
+
+**Sky Fairs:**
+Diese einflussreichen Wesen kommen über einen zweiten Eingang in den höheren Etagen an. Sie nutzen ausschließlich **Missionary**- und **Balloon**-Suiten. Ihnen eine gute Zeit zu bereiten, ist der schnellste Weg, um Ihren Ruf in der Mitte des Spiels zu steigern.
+
+**Astronauten:**
+Diese Gäste kommen mit "Space Cash" und sind extrem wohlhabend. Sie übernachten nur in **Tropical**- und **Banana**-Suiten. Da sie deutlich mehr bezahlen als normale Menschen, sollten Sie den Bau dieser Zimmer priorisieren, sobald Sie 5 Sterne erreicht haben.
+
+**Teufelsbrut (Devil Spawn):**
+Diese Kreaturen tauchen aus dem Boden auf, wenn Sie tief genug graben. Sie bevorzugen **Chocolate**- und **Heaven**-Suiten. Interessanterweise bringen sie nie eigene Kondome mit, daher ist ein gut bestückter Automat in der Nähe für ihre Zufriedenheit zwingend erforderlich.
+
+<Callout type="info" title="Erkundung des Untergrunds">
+Bauen Sie nicht nur nach oben! Das Graben im Untergrund kann vergrabene Schatzkisten im Wert von bis zu $20.000 zum Vorschein bringen, die Ihre nächste komplette Etage mit Luxussuiten finanzieren können.
+</Callout>
+
+| Gästetyp | Bevorzugtes Zimmer | Zahlungsart | Besonderheit |
+| :--- | :--- | :--- | :--- |
+| Sky Fairs | Balloon / Missionary | Standard | Hoher Einfluss |
+| Astronauten | Banana / Tropical | Space Cash | Sehr wohlhabend |
+| Teufelsbrut | Chocolate / Heaven | Standard | Bringen nie Kondome mit |
+
+</Section>
+
+<Section icon={Trophy} title="Finanzielle Optimierung und End-Game-Ziele">
+
+Um das ultimative Ziel zu erreichen, das beste Love Hotel der Welt zu sein, müssen Sie Ihre Finanzen sorgfältig verwalten. Die größten Kostenfaktoren sind die Stromrechnung und die Gehälter des Personals.
+
+**Management der Stromrechnung:**
+Jeder Raum und jede Maschine, die Sie bauen, erhöht Ihre monatliche Rechnung. Wenn Ihr Einkommen nicht mithält, gehen Sie bankrott. Nutzen Sie die "Vorspulen"-Funktion sparsam, bis Sie genug Zimmer haben, um einen konstanten Cashflow zu gewährleisten.
+
+**Optimierung von Küche und Speisesaal:**
+Bei 3 Sternen schalten Sie die Küche und den Speisesaal frei.
+- **Köche**: Erforderlich für den Betrieb der Küche.
+- **Gefrierschränke**: Freigeschaltet bei 4 Sternen; diese beschleunigen die Kochzeit erheblich.
+- **Speisesäle**: Gäste besuchen diese, wenn sie hungrig sind, was eine zusätzliche Einnahmequelle außerhalb der Zimmervermietung darstellt.
+
+<Checklist
+  id="end-game-checklist"
+  title="Checkliste für den Weg zu 6 Sternen:"
+  items={[
+    "Stellen Sie mindestens 5 Stalker ein, um das Auffüllen zu automatisieren",
+    "Bauen Sie mindestens einen Wellnessraum auf jeder dritten Etage",
+    "Sorgen Sie für eine 100%ige Abdeckung mit Kondomautomaten für die Teufelsbrut",
+    "Graben Sie bis zur maximalen Tiefe, um alle vergrabenen Schätze zu finden",
+    "Erreichen Sie ein Gleichgewicht von 15 Pagen und 20 Reinigungskräften für maximale Effizienz"
+  ]}
+/>
+
+<Callout type="tip" title="Maximale Bargeldobergrenze">
+Das Spiel begrenzt Ihr sichtbares Bargeld auf $999.999. Sobald Sie diesen Punkt erreicht haben, spielt Geld keine Rolle mehr – konzentrieren Sie sich ganz auf die ästhetische Platzierung und die Maximierung der Gästezufriedenheit, um das finale 6-Sterne-Achievement auszulösen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Love Hotel Simulator Guide FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie erhöhe ich die Sternebewertung meines Hotels?",
+    answer: "Die Sternebewertung steigt basierend auf der gesamten Gästezufriedenheit und der Vielfalt Ihrer Zimmer. Der Bau neuer Suitentypen und die Sicherstellung, dass Zimmer schnell gereinigt werden, sind die besten Wege zum Fortschritt."
+  },
+  {
+    question: "Was ist der beste Weg, um mit der Teufelsbrut umzugehen?",
+    answer: "Die Teufelsbrut nutzt nur Chocolate- und Heaven-Suiten. Da sie keine Kondome mitbringen, müssen Sie einen Kondomautomaten direkt vor ihren Zimmern platzieren, um sicherzustellen, dass sie nicht unzufrieden abreisen."
+  },
+  {
+    question: "Kann ich das Auffüllen der Verkaufsautomaten automatisieren?",
+    answer: "Ja. Sobald Sie 4 Sterne erreicht haben, können Sie Stalker einstellen. Stalker bewegen sich automatisch durch das Hotel und füllen alle leeren Verkaufs- oder Kondomautomaten auf."
+  },
+  {
+    question: "Was passiert, wenn die Stromrechnung zu hoch ist?",
+    answer: "Wenn Ihre Ausgaben Ihr Einkommen übersteigen, sinkt Ihr Bargeldbestand. Stellen Sie immer sicher, dass Sie ein hohes Verhältnis von Zimmern zu Personal haben, um einen positiven Cashflow aufrechtzuerhalten."
+  }
+]} />
+
+</Section>
