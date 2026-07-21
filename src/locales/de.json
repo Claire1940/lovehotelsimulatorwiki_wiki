@@ -1,11 +1,529 @@
 {
+  "seo": {
+    "home": {
+      "title": "LOVE Hotel Simulator Wiki – Guide, Codes & Bau",
+      "description": "Das LOVE Hotel Simulator Wiki bietet Hotelmanagement-Leitfäden, Tipps zur Zimmeranpassung, Personalstrategien, Walkthroughs und Gameplay-Informationen für Steam-Spieler.",
+      "keywords": "LOVE Hotel Simulator, Steam, Hotel-Leitfaden, Zimmeranpassung, Personal, Walkthrough",
+      "ogTitle": "LOVE Hotel Simulator Wiki – Guide, Codes & Bau",
+      "ogDescription": "Das LOVE Hotel Simulator Wiki bietet Hotelmanagement-Leitfäden, Tipps zur Zimmeranpassung, Personalstrategien, Walkthroughs und Gameplay-Informationen für Steam-Spieler.",
+      "twitterTitle": "LOVE Hotel Simulator Wiki – Guide, Codes & Bau",
+      "twitterDescription": "Das LOVE Hotel Simulator Wiki bietet Hotelmanagement-Leitfäden, Tipps zur Zimmeranpassung, Personalstrategien, Walkthroughs und Gameplay-Informationen für Steam-Spieler."
+    }
+  },
   "nav": {
-    "guide": "Leitfaden",
-    "release": "Release",
+    "guide": "Guide",
+    "release": "Veröffentlichung",
     "rooms": "Zimmer",
-    "management": "Verwaltung",
+    "management": "Management",
     "characters": "Charaktere",
     "reviews": "Rezensionen",
     "content": "Inhalt"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Romantischer Hotelmanagement-Simulator",
+    "title": "LOVE Hotel Simulator Wiki",
+    "description": "Vollständiger LOVE Hotel Simulator Leitfaden über Hotelbau, Zimmeranpassung, Personalmanagement, Kundenanfragen, Upgrades und Geschäftsstrategien. Entdecke alles, was Spieler brauchen, um ihr Traum-Love-Hotel aufzubauen.",
+    "keywords": "LOVE Hotel Simulator, Steam, Hotelsimulator, Management-Spiel, Zimmeranpassung, Personal-Guide",
+    "startGuideCTA": "Einsteiger-Guide lesen",
+    "playOnSteamCTA": "Auf Steam spielen",
+    "stats": {
+      "stat1": {
+        "value": "100K+",
+        "label": "Wunschlisten-Potenzial"
+      },
+      "stat2": {
+        "value": "100+",
+        "label": "Anpassungsgegenstände"
+      },
+      "stat3": {
+        "value": "2026",
+        "label": "Veröffentlichungszeitraum"
+      },
+      "stat4": {
+        "value": "Weekly",
+        "label": "Neueste Updates"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "LOVE Hotel Simulator Gameplay",
+    "description": "Baue und leite dein eigenes Love Hotel, stelle Personal ein, passe Zimmer an, verwalte Gästeanfragen und vergrößere dein Unternehmen in dieser First-Person-Hotelmanagement- und Lebenssimulation auf Steam."
+  },
+  "tools": {
+    "title": "LOVE Hotel Simulator",
+    "titleHighlight": "Wiki-Ressourcen",
+    "subtitle": "Alles, was du brauchst, um dein Love-Hotel-Unternehmen auf Steam aufzubauen, anzupassen und zu vergrößern",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "LOVE Hotel Simulator Einsteiger-Guide",
+        "description": "Erste Schritte, Hoteleinrichtung und früher Fortschritt"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "LOVE Hotel Simulator Gameplay-Guide",
+        "description": "Zentrale Managementsysteme und Hotelbetrieb"
+      },
+      {
+        "icon": "Home",
+        "title": "LOVE Hotel Simulator Zimmer-Guide",
+        "description": "Zimmergestaltung, Möbel und Anpassung"
+      },
+      {
+        "icon": "Users",
+        "title": "LOVE Hotel Simulator Personal-Guide",
+        "description": "Einstellung, Effizienz und täglicher Betrieb"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "LOVE Hotel Simulator Fortschritts-Guide",
+        "description": "Upgrades, Erweiterung und langfristiges Wachstum"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "LOVE Hotel Simulator Updates",
+        "description": "Offizielle Neuigkeiten, Patches und Entwickler-Ankündigungen"
+      },
+      {
+        "icon": "Star",
+        "title": "LOVE Hotel Simulator Tipps und Tricks",
+        "description": "Praktische Strategien für besseres Management"
+      },
+      {
+        "icon": "Shield",
+        "title": "LOVE Hotel Simulator Systemanforderungen",
+        "description": "PC-Spezifikationen, Plattformunterstützung und technische Details"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "LOVE Hotel Simulator Einsteiger-Guide",
+      "intro": "Dieser Einsteiger-Guide führt in den grundlegenden Gameplay-Loop von LOVE Hotel Simulator ein. Erfahre Schritt für Schritt, wie du den Hotelbetrieb leitest, Zimmer verbesserst, Gäste zufriedenstellst und dein Unternehmen vergrößerst.",
+      "steps": [
+        {
+          "title": "Starte deinen Hotelbetrieb",
+          "description": "Lerne die grundlegende Steuerung kennen und verstehe die Benutzeroberfläche des Hotel-Managements. Beginne damit, verfügbare Bereiche zu verwalten und deine ersten Zimmer für Gäste vorzubereiten."
+        },
+        {
+          "title": "Zimmer vorbereiten und anpassen",
+          "description": "Richte ansprechende Gästezimmer ein, indem du Möbel aufstellst, Dekorationen verbesserst und das Layout anpasst, um den Gästen ein besseres Erlebnis zu bieten."
+        },
+        {
+          "title": "Gäste und Services verwalten",
+          "description": "Behalte die Bedürfnisse der Gäste im Blick, halte die Zufriedenheit hoch und verbessere den täglichen Betrieb, um die Leistung des Hotels zu steigern."
+        },
+        {
+          "title": "Erweitere dein Hotel",
+          "description": "Nutze verdiente Ressourcen, um Verbesserungen freizuschalten, Einrichtungen aufzuwerten und von einem kleinen Hotel zu einem größeren Unternehmen anzuwachsen."
+        },
+        {
+          "title": "Frühen Spielfortschritt optimieren",
+          "description": "Konzentriere dich auf effiziente Upgrades, ausgewogene Ausgaben und kluge Managemententscheidungen, um ein stärkeres Fundament aufzubauen."
+        }
+      ],
+      "quickTips": [
+        "Behalte eine Cash-Reserve ein, bevor du Geld für neue Dekorationen oder Personal ausgibst.",
+        "Achte zuerst auf die Gästezufriedenheit; ein stetiges Einkommen folgt zufriedenen Kunden.",
+        "Werte ein Zimmer vollständig auf, bevor du in neue expandierst.",
+        "Überarbeite dein Layout regelmäßig, um den Servicefluss und den Gästekomfort zu verbessern."
+      ]
+    },
+    "gameplayGuide": {
+      "title": "LOVE Hotel Simulator Gameplay-Leitfaden",
+      "intro": "Dieser Gameplay-Leitfaden deckt die wichtigsten Simulationssysteme in LOVE Hotel Simulator ab. Erfahre, wie verschiedene Managemententscheidungen die Effizienz, das Einkommen und das Gästeerlebnis beeinflussen.",
+      "cards": [
+        {
+          "name": "Hotelmanagement",
+          "description": "Kontrolliere den täglichen Hotelbetrieb, indem du Zimmer, Dienstleistungen, Upgrades und Geschäftsentscheidungen verwaltest."
+        },
+        {
+          "name": "Kundenzufriedenheit",
+          "description": "Verbessere das Gästeerlebnis durch bessere Einrichtungen, Zimmerqualität und effektives Servicemanagement."
+        },
+        {
+          "name": "Ressourcenmanagement",
+          "description": "Finde das Gleichgewicht zwischen Ausgaben und Investitionen, um ein stetiges Hotelwachstum zu gewährleisten."
+        },
+        {
+          "name": "Geschäftsexpansion",
+          "description": "Entwickle dein Hotel weiter, indem du Verbesserungen freischaltest und die Betriebskapazität erhöhst."
+        },
+        {
+          "name": "Strategische Planung",
+          "description": "Wähle effiziente Upgrade-Pfade und priorisiere Verbesserungen, die langfristige Vorteile bieten."
+        }
+      ],
+      "milestones": [
+        "Stabiles tägliches Einkommen",
+        "Hohe Gästezufriedenheit",
+        "Effizienter Personal-Workflow",
+        "Nachhaltige Expansion"
+      ]
+    },
+    "roomsCustomization": {
+      "title": "LOVE Hotel Simulator Leitfaden für Zimmer und Anpassung",
+      "intro": "Dieser Leitfaden erklärt die Funktionen zur Zimmeranpassung in LOVE Hotel Simulator. Verbessere das Gästeerlebnis, indem du Zimmer gestaltest, Dekorationen hinzufügst und vorhandene Einrichtungen aufwertest.",
+      "cards": [
+        {
+          "name": "Design des Zimmerlayouts",
+          "description": "Gestalte die Zimmerbereiche effektiv, um funktionale und attraktive Umgebungen für Gäste zu schaffen."
+        },
+        {
+          "name": "Platzierung von Möbeln",
+          "description": "Nutze verfügbare Möbel und Dekorationen, um die Zimmerqualität und die optische Attraktivität zu steigern."
+        },
+        {
+          "name": "Zimmer-Upgrades",
+          "description": "Verbessere Zimmerfunktionen, um besseren Service zu bieten und die Hotelperformance zu steigern."
+        },
+        {
+          "name": "Dekorationsmöglichkeiten",
+          "description": "Passe das Erscheinungsbild der Zimmer an und kreiere verschiedene Stile durch Dekorationsoptionen."
+        },
+        {
+          "name": "Optimierung des Gästeerlebnisses",
+          "description": "Finde das Gleichgewicht zwischen Designentscheidungen und praktischen Verbesserungen, um ansprechendere Zimmer zu schaffen."
+        }
+      ],
+      "highlights": [
+        "Funktionale Layouts",
+        "Stilvolle Dekorationen",
+        "Gestufte Upgrades",
+        "Höherer Gästekomfort"
+      ]
+    },
+    "staffManagement": {
+      "title": "LOVE Hotel Simulator Leitfaden für Personal und Management",
+      "intro": "Dieser Personal-Leitfaden konzentriert sich auf die Steigerung der Hotelproduktivität durch besseres Personalmanagement und operative Planung. Nutze diese Strategien, um einen effizienten Service aufrechtzuerhalten, während dein Hotel wächst.",
+      "items": [
+        {
+          "category": "---",
+          "details": "Personalrekrutierung"
+        },
+        {
+          "category": "Verwalte verfügbare Mitarbeiter und baue ein Team auf, das den täglichen Hotelbetrieb unterstützt.",
+          "details": "Arbeitseffizienz"
+        },
+        {
+          "category": "Optimiere die betriebliche Leistung, indem du die Zuständigkeiten des Personals effektiv organisierst.",
+          "details": "Täglicher Betrieb"
+        },
+        {
+          "category": "Überwache den Hotelbetrieb und sorge für einen reibungslosen Service für deine Gäste.",
+          "details": "Ressourcenbalance"
+        },
+        {
+          "category": "Kontrolliere Kosten und triff Managemententscheidungen, die ein nachhaltiges Wachstum fördern.",
+          "details": "Hotelerweiterung"
+        }
+      ]
+    },
+    "progressionGuide": {
+      "title": "Passe deine Managementstrategien an, wenn das Hotel größer und komplexer wird.",
+      "intro": "LOVE Hotel Simulator Fortschrittsleitfaden",
+      "steps": [
+        {
+          "title": "Dieser Leitfaden erklärt den allgemeinen Wachstumspfad in LOVE Hotel Simulator, einschließlich der Verbesserung von Einrichtungen, dem Ausbau des Hotelbetriebs und dem Freischalten weiterer Managementoptionen im Zuge der Geschäftsentwicklung.",
+          "description": "Hotelbetrieb starten"
+        },
+        {
+          "title": "Lerne den grundlegenden Management-Kreislauf kennen, indem du Zimmer verwaltest, Gäste bedienst und die zentralen Geschäftssysteme des Hotels verstehst.",
+          "description": "Hoteleinrichtungen verbessern"
+        },
+        {
+          "title": "Verbessere verfügbare Einrichtungen und das Hotelumfeld, um das Kundenerlebnis und das Geschäftswachstum zu fördern.",
+          "description": "Geschäftskapazität erweitern"
+        },
+        {
+          "title": "Konzentriere dich darauf, die Hotelkapazitäten zu erhöhen und durch kontinuierlichen Fortschritt zusätzliche Managementoptionen freizuschalten.",
+          "description": "Langfristiges Wachstum optimieren"
+        }
+      ]
+    },
+    "updatesAndNews": {
+      "title": "Finde das Gleichgewicht zwischen Upgrades, Betrieb und Ressourcen, um eine effizientere Hotelmanagement-Strategie zu entwickeln.",
+      "intro": "LOVE Hotel Simulator Updates und Neuigkeiten",
+      "items": [
+        {
+          "category": "Dieser Abschnitt enthält offizielle Spiel-Updates, Ankündigungen der Entwickler und Informationen zur Veröffentlichung von LOVE Hotel Simulator.",
+          "title": "Offizielle Ankündigungen",
+          "description": "Entwickler-Neuigkeiten"
+        },
+        {
+          "category": "Verfolge Ankündigungen und Informationen, die von den Entwicklern über offizielle Spielkanäle geteilt werden.",
+          "title": "Spiel-Updates",
+          "description": "Inhaltsänderungen"
+        },
+        {
+          "category": "Sieh dir Gameplay-Verbesserungen, neue Funktionen und Änderungen an, die durch Updates eingeführt wurden.",
+          "title": "Zukünftige Inhalte",
+          "description": "Entwicklungspläne"
+        }
+      ]
+    },
+    "tipsAndTricks": {
+      "title": "Erhalte Informationen über bevorstehende Verbesserungen und mögliche zukünftige Ergänzungen.",
+      "intro": "LOVE Hotel Simulator Tipps und Tricks",
+      "items": [
+        {
+          "name": "Nutze diese Tipps, um bessere Managemententscheidungen zu treffen, die Effizienz zu steigern und einen erfolgreichen Hotelbetrieb in LOVE Hotel Simulator aufzubauen.",
+          "description": "Nützliche Upgrades priorisieren"
+        },
+        {
+          "name": "Konzentriere Ressourcen auf Verbesserungen, die einen spürbaren Nutzen für den täglichen Hotelbetrieb bieten.",
+          "description": "Ressourcen sorgfältig verwalten"
+        },
+        {
+          "name": "Wäge Ausgaben und Erweiterungsentscheidungen ab, um eine stetige Geschäftsentwicklung beizubehalten.",
+          "description": "Kundenerlebnis verbessern"
+        },
+        {
+          "name": "Achte auf die Bedürfnisse der Kunden und sorge durch effektives Management für eine bessere Servicequalität.",
+          "description": "Wähle Upgrade-Pfade sorgfältig aus, um das langfristige Wachstum des Hotels zu fördern."
+        }
+      ]
+    },
+    "systemRequirements": {
+      "title": "LOVE Hotel Simulator Systemanforderungen",
+      "intro": "Dieser Abschnitt enthält die verfügbaren technischen Informationen für LOVE Hotel Simulator, einschließlich Details zur unterstützten Plattform und Hardwareanforderungen.",
+      "items": [
+        {
+          "category": "Plattform",
+          "details": "PC-Plattform über Steam."
+        },
+        {
+          "category": "Shop-Seite",
+          "details": "Verfügbar über die offizielle Steam-Shop-Seite."
+        },
+        {
+          "category": "Entwickler",
+          "details": "Pocket Rocket Studio."
+        },
+        {
+          "category": "Publisher",
+          "details": "Taboo Tales."
+        },
+        {
+          "category": "Genre",
+          "details": "Hotel-Management, Lebenssimulation, First-Person-Simulation."
+        },
+        {
+          "category": "Hardware-Informationen",
+          "details": "Prüfe die offizielle Steam-Shop-Seite für die aufgeführten minimalen und empfohlenen PC-Anforderungen."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über LOVE Hotel Simulator wissen musst",
+    "questions": [
+      {
+        "question": "Was ist LOVE Hotel Simulator?",
+        "answer": "LOVE Hotel Simulator ist ein First-Person-Hotel-Management- und Lebenssimulationsspiel, in dem du dein eigenes Love Hotel auf Steam aufbaust, anpasst und leitest."
+      },
+      {
+        "question": "Wo kann ich LOVE Hotel Simulator spielen?",
+        "answer": "LOVE Hotel Simulator ist für PC über Steam verfügbar. Du kannst es auf deine Wunschliste setzen oder über die offizielle Steam-Shop-Seite kaufen."
+      },
+      {
+        "question": "Was macht man in LOVE Hotel Simulator?",
+        "answer": "In LOVE Hotel Simulator gestaltest du Zimmer, stellst Personal ein und verwaltest es, bearbeitest Gästeanfragen, verbesserst Einrichtungen und baust dein Hotelgeschäft Schritt für Schritt aus."
+      },
+      {
+        "question": "Hat LOVE Hotel Simulator einen Multiplayer- oder Koop-Modus?",
+        "answer": "LOVE Hotel Simulator ist eine Einzelspieler-Simulationserfahrung. Besuche die Steam-Shop-Seite für die neuesten offiziellen Feature-Details."
+      },
+      {
+        "question": "Wie oft erhält LOVE Hotel Simulator Updates?",
+        "answer": "Das Entwicklungsteam teilt Ankündigungen und Inhalts-Updates für LOVE Hotel Simulator über die Steam-Shop-Seite und den Steam-Community-Hub."
+      },
+      {
+        "question": "Ist LOVE Hotel Simulator für meinen PC geeignet?",
+        "answer": "Überprüfe die Systemanforderungen auf der LOVE Hotel Simulator Steam-Shop-Seite, um sicherzustellen, dass deine Hardware die minimalen und empfohlenen Spezifikationen erfüllt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, dein Love Hotel zu leiten?",
+    "description": "Setze LOVE Hotel Simulator auf Steam auf deine Wunschliste, tritt der Steam-Community für die neuesten Guides und Updates bei und beginne mit dem Aufbau deines Traum-Hotelgeschäfts.",
+    "joinCommunity": "Steam-Community",
+    "joinGame": "Auf Steam spielen"
+  },
+  "footer": {
+    "title": "LOVE Hotel Simulator Wiki",
+    "description": "Deine vollständige Ressourcen-Zentrale für LOVE Hotel Simulator Hotel-Management, Zimmeranpassung, Personalstrategien und Gameplay-Guides.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Steam-Shop",
+    "twitter": "---",
+    "steamCommunity": "Steam Community",
+    "steamStore": "SteamDB",
+    "about": "Steam News",
+    "privacy": "Über uns",
+    "terms": "Datenschutzerklärung",
+    "copyrightNotice": "Nutzungsbedingungen",
+    "copyright": "Urheberrecht",
+    "disclaimer": "© 2026 LOVE Hotel Simulator Wiki. Nicht mit den Entwicklern von LOVE Hotel Simulator verbunden."
+  },
+  "pages": {
+    "guide": {
+      "title": "Inoffizielle, von Fans erstellte Ressourcen-Website.",
+      "description": "LOVE Hotel Simulator Guide",
+      "metaTitle": "Vollständige LOVE Hotel Simulator Guides, die Spielmechaniken, Hotelmanagement, Zimmeranpassung und Gästestrategien abdecken – von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Taktiken.",
+      "metaDescription": "LOVE Hotel Simulator Guide – Walkthroughs, Tipps & Strategien",
+      "categoryLabel": "Meistern Sie LOVE Hotel Simulator mit vollständigen Guides. Lernen Sie Spielmechaniken, Hotelmanagement, Zimmeranpassung, Personalstrategien und Experten-Tipps für das Wachstum Ihres Unternehmens.",
+      "whatIs": "SPIEL-GUIDES",
+      "whatIsDescription": "Was sind Guides?",
+      "why": "Umfassende Walkthroughs, die jeden Aspekt von LOVE Hotel Simulator abdecken, von Ihrer ersten Nacht im Hotel bis hin zu fortgeschrittenen Management-Strategien. Lernen Sie Schritt für Schritt die Kernmechaniken, den Umgang mit Gästen und die Zimmeroptimierung.",
+      "whySteps": {
+        "step1Title": "Warum Guides lesen?",
+        "step1Description": "Kernmechaniken erlernen",
+        "step2Title": "Verstehen Sie die Hotelmanagement-Systeme, die Gästezufriedenheit und den täglichen Betrieb, um häufige Anfängerfehler zu vermeiden.",
+        "step2Description": "Schneller Fortschritt",
+        "step3Title": "Folgen Sie bewährten Fortschrittspfaden, um Zimmer, Personal und besondere Gäste effizient freizuschalten.",
+        "step3Description": "Fortgeschrittene Strategien meistern"
+      },
+      "featured": "Entwickeln Sie Experten-Taktiken für Personalplanung, Anpassung und den Ausbau Ihres Love-Hotel-Imperiums.",
+      "all": "Empfohlen & Essenziell"
+    },
+    "release": {
+      "title": "Alle Guides",
+      "description": "LOVE Hotel Simulator Release-Infos",
+      "metaTitle": "Aktuelles Release-Datum von LOVE Hotel Simulator, Steam-Verfügbarkeit, Versions-Updates und offizielle Trailer. Verfolgen Sie jedes Launch-Detail und jede Patch-Notiz.",
+      "metaDescription": "LOVE Hotel Simulator Release-Datum, Steam & Updates",
+      "categoryLabel": "Bleiben Sie auf dem Laufenden über das Release-Datum von LOVE Hotel Simulator, den Steam-Launch, Versions-Updates und offizielle Trailer. Hier finden Sie die neuesten Patch-Notizen und Launch-Details.",
+      "whatIs": "RELEASE & UPDATES",
+      "whatIsDescription": "Was sind Release-Infos?",
+      "why": "Alles über den Launch-Zeitplan von LOVE Hotel Simulator, einschließlich Release-Datum, Plattformverfügbarkeit auf Steam, Versionshistorie und offiziellen Trailern. Verfolgen Sie, wann neue Inhalte erscheinen und was jedes Update bringt.",
+      "whySteps": {
+        "step1Title": "Warum Release-Infos verfolgen?",
+        "step1Description": "Verpassen Sie niemals den Launch",
+        "step2Title": "Kennen Sie das genaue Release-Datum und die Steam-Verfügbarkeit, damit Sie am ersten Tag spielen können.",
+        "step2Description": "Jedes Update verfolgen",
+        "step3Title": "Bleiben Sie über Versionsänderungen, neue Features und Inhalts-Erweiterungen auf dem Laufenden, während sich das Spiel entwickelt.",
+        "step3Description": "Offizielle Trailer ansehen"
+      },
+      "featured": "Sehen Sie sich jeden Trailer und jede Gameplay-Enthüllung an, um zu erfahren, was als Nächstes für das Hotel kommt.",
+      "all": "Alle Release-Infos"
+    },
+    "rooms": {
+      "title": "LOVE Hotel Simulator Zimmer",
+      "description": "Meistern Sie die Zimmergestaltung in LOVE Hotel Simulator mit Layout-Design, Möbelplatzierung, Deko-Optionen, Themenauswahl und Upgrade-Strategien für ein besseres Gästeerlebnis.",
+      "metaTitle": "LOVE Hotel Simulator Zimmer – Gestaltung, Themen & Upgrades",
+      "metaDescription": "Meistern Sie die Zimmergestaltung in LOVE Hotel Simulator. Lernen Sie alles über Layout-Design, Möbelplatzierung, Deko-Optionen, Themenauswahl und Upgrade-Strategien für zufriedene Gäste und höhere Einnahmen.",
+      "categoryLabel": "ZIMMER & GESTALTUNG",
+      "whatIs": "Was sind Zimmer?",
+      "whatIsDescription": "Das Zimmersystem ermöglicht es Ihnen, Gästezimmer durch das Platzieren von Möbeln, die Auswahl von Dekorationen, das Anwenden von Themen und das Upgraden von Einrichtungen zu gestalten. Intelligente Layouts und Themensuiten verbessern sowohl die Gästezufriedenheit als auch Ihre nächtlichen Einnahmen.",
+      "why": "Warum Zimmer gestalten?",
+      "whySteps": {
+        "step1Title": "Mehr Gäste anlocken",
+        "step1Description": "Gestalten Sie ansprechende Themenzimmer, die Kunden anziehen und die Zufriedenheitsbewertungen steigern.",
+        "step2Title": "Einnahmen steigern",
+        "step2Description": "Verbessern Sie Einrichtungen und Dekorationen, um den Zimmerwert und die nächtlichen Einnahmen zu erhöhen.",
+        "step3Title": "Layouts optimieren",
+        "step3Description": "Ordnen Sie Räume für effiziente Serviceabläufe, Privatsphäre und besseren Gästekomfort an."
+      },
+      "featured": "Highlights & Grundlagen",
+      "all": "Alle Zimmer-Guides"
+    },
+    "management": {
+      "title": "LOVE Hotel Simulator Management",
+      "description": "LOVE Hotel Simulator Management-Guides über Upgrades, Expansion, Personalplanung, Preisgestaltung und Strategien zum Geldverdienen, um ein profitables Love-Hotel-Unternehmen aufzubauen.",
+      "metaTitle": "LOVE Hotel Simulator Management – Upgrades, Expansion & Geld",
+      "metaDescription": "Führen Sie ein profitables Love-Hotel mit den LOVE Hotel Simulator Management-Guides. Meistern Sie Upgrades, Expansion, Personalplanung, Preisgestaltung und Strategien zum Geldverdienen, um Ihr Unternehmen auszubauen.",
+      "categoryLabel": "MANAGEMENT & WACHSTUM",
+      "whatIs": "Was ist Management?",
+      "whatIsDescription": "Die Management-Ebene von LOVE Hotel Simulator umfasst die geschäftliche Seite: das Upgraden von Einrichtungen, den Ausbau des Gebäudes, das Einstellen und Planen von Personal, das Festlegen von Zimmerpreisen und die Maximierung des täglichen Gewinns.",
+      "why": "Warum auf Management konzentrieren?",
+      "whySteps": {
+        "step1Title": "Steigern Sie Ihren Umsatz",
+        "step1Description": "Nutzen Sie Preis- und Upgrade-Strategien, die Ihr tägliches Einkommen vervielfachen.",
+        "step2Title": "Klug expandieren",
+        "step2Description": "Schalten Sie neue Flügel und Zimmer in der richtigen Reihenfolge frei, um zu skalieren, ohne pleitezugehen.",
+        "step3Title": "Effiziente Teams aufbauen",
+        "step3Description": "Stellen Sie das richtige Personal ein und planen Sie es so, dass der Betrieb reibungslos läuft und die Gäste zufrieden sind."
+      },
+      "featured": "Highlights & Grundlagen",
+      "all": "Alle Management-Guides"
+    },
+    "characters": {
+      "title": "LOVE Hotel Simulator Charaktere",
+      "description": "LOVE Hotel Simulator Guide für Charaktere, Gäste und Personal. Treffen Sie jeden Gästetyp, lernen Sie deren Vorlieben kennen und entdecken Sie das Personal, das Ihr Hotel am Laufen hält.",
+      "metaTitle": "LOVE Hotel Simulator Charaktere, Gäste & Personal",
+      "metaDescription": "Entdecken Sie jeden Charakter, Gästetyp und jede Personalrolle in LOVE Hotel Simulator. Erfahren Sie mehr über Gästewünsche, besondere Besucher und das Team, das für einen reibungslosen Ablauf in Ihrem Love-Hotel sorgt.",
+      "categoryLabel": "CHARAKTERE & GÄSTE",
+      "whatIs": "Was sind Charaktere?",
+      "whatIsDescription": "Zu den Charakteren in LOVE Hotel Simulator gehören die Gäste, die einchecken (jeder mit individuellen Vorlieben und Persönlichkeiten), besondere Besucher wie Astronauten und Teufel sowie das Personal, das Sie für den täglichen Betrieb einstellen.",
+      "why": "Warum die Charaktere kennenlernen?",
+      "whySteps": {
+        "step1Title": "Gäste besser bedienen",
+        "step1Description": "Verstehe die Vorlieben jedes Gästetyps, um die passenden Zimmer und Services anzubieten",
+        "step2Title": "Spezielle Besucher freischalten",
+        "step2Description": "Entdecke, wie du seltene Gäste anlockst, die Bonusbelohnungen und einzigartige Events mitbringen",
+        "step3Title": "Das richtige Personal aufbauen",
+        "step3Description": "Lerne die Rollen der Mitarbeiter kennen, um ein Team einzustellen, das zu den Bedürfnissen deines Hotels passt"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Charakter-Guides"
+    },
+    "reviews": {
+      "title": "LOVE Hotel Simulator Rezensionen",
+      "description": "LOVE Hotel Simulator Rezensionen und Gameplay-Eindrücke. Lies, was Kritiker und Spieler über die Hotelsimulation, ihre Spielmechaniken und darüber sagen, ob sich der Kauf lohnt.",
+      "metaTitle": "LOVE Hotel Simulator Rezensionen – Gameplay & Lohnt es sich?",
+      "metaDescription": "Lies LOVE Hotel Simulator Rezensionen und Gameplay-Eindrücke. Finde heraus, was Kritiker und Spieler über die Mechaniken, den Inhalt und darüber denken, ob sich das Spielen der Hotelsimulation lohnt.",
+      "categoryLabel": "REZENSIONEN & EINDRÜCKE",
+      "whatIs": "Was sind Rezensionen?",
+      "whatIsDescription": "Rezensionen sammeln Eindrücke von Kritikern und Spielern zu LOVE Hotel Simulator und decken die Qualität des Gameplays, die Tiefe der Hotelmanagement-Mechaniken, den Wert der Inhalte und die allgemeine Erfahrung beim Betreiben eines eigenen Love Hotels ab.",
+      "why": "Warum Rezensionen lesen?",
+      "whySteps": {
+        "step1Title": "Entscheiden vor dem Kauf",
+        "step1Description": "Erhalte ein ausgewogenes Bild von Stärken und Schwächen vor dem Kauf auf Steam",
+        "step2Title": "Echtes Gameplay sehen",
+        "step2Description": "Sieh dir Gameplay-Eindrücke an, um zu beurteilen, ob der Spielablauf deinem Geschmack entspricht",
+        "step3Title": "Langzeitwert einschätzen",
+        "step3Description": "Verstehe die inhaltliche Tiefe und den Wiederspielwert, um zu wissen, ob es langfristig Spaß macht"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Rezensionen"
+    },
+    "content": {
+      "title": "LOVE Hotel Simulator Inhalte",
+      "description": "LOVE Hotel Simulator Videoinhalte, vollständige Gameplay-Walkthroughs, Ersteindrücke und PC-Gameplay-Aufnahmen. Sieh dir die Hotelsimulation vor und nach der Veröffentlichung in Aktion an.",
+      "metaTitle": "LOVE Hotel Simulator Gameplay-Videos & vollständige Playthroughs",
+      "metaDescription": "Sieh dir LOVE Hotel Simulator Inhalte an, einschließlich vollständiger Gameplay-Walkthroughs, Ersteindrücke und PC-Gameplay-Aufnahmen. Erlebe die Hotelsimulation in Aktion in jeder Phase des Spiels.",
+      "categoryLabel": "VIDEOS & GAMEPLAY",
+      "whatIs": "Was sind Inhalte?",
+      "whatIsDescription": "Der Inhaltsbereich versammelt Videoberichte zu LOVE Hotel Simulator, einschließlich vollständiger Gameplay-Walkthroughs, Ersteindrücke und PC-Gameplay-Aufnahmen, die die Hotelsimulation von der Eröffnungsnacht bis zum Management im späteren Spielverlauf zeigen.",
+      "why": "Warum Inhalte ansehen?",
+      "whySteps": {
+        "step1Title": "Das Spiel in Aktion sehen",
+        "step1Description": "Sieh dir echtes Gameplay an, um Pacing, Grafik und Management-Tiefe vor dem Spielen zu beurteilen",
+        "step2Title": "Vollständige Playthroughs verfolgen",
+        "step2Description": "Nutze komplette Walkthroughs, um den Fortschritt zu sehen und deine eigene Strategie zu planen",
+        "step3Title": "Ersteindrücke erhalten",
+        "step3Description": "Erhalte erste Eindrücke und Aufnahmen aus Previews und Demo-Versionen"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Inhalte"
+    }
   }
 }

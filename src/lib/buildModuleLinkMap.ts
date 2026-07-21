@@ -13,47 +13,33 @@ interface ArticleWithType extends ContentItem {
 }
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
+// LOVE Hotel Simulator 首页 8 个模块（与 en.json modules 键一一对应）
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  beginnerGuide: { field: 'steps', nameKey: 'title' },
+  gameplayGuide: { field: 'cards', nameKey: 'name' },
+  roomsCustomization: { field: 'cards', nameKey: 'name' },
+  staffManagement: { field: 'items', nameKey: 'category' },
+  progressionGuide: { field: 'steps', nameKey: 'title' },
+  updatesAndNews: { field: 'items', nameKey: 'title' },
+  tipsAndTricks: { field: 'items', nameKey: 'name' },
+  systemRequirements: { field: 'items', nameKey: 'category' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  beginnerGuide: ['guide', 'beginner', 'how to play', 'starter', 'tutorial'],
+  gameplayGuide: ['gameplay', 'mechanics', 'walkthrough', 'controls', 'prologue'],
+  roomsCustomization: ['rooms', 'customization', 'decorate', 'design', 'themes'],
+  staffManagement: ['staff', 'employees', 'hiring', 'management', 'guests'],
+  progressionGuide: ['progression', 'upgrade', 'unlock', 'levels', 'expansion'],
+  updatesAndNews: ['update', 'news', 'patch', 'release', 'changelog'],
+  tipsAndTricks: ['tips', 'tricks', 'strategy', 'guide', 'secrets'],
+  systemRequirements: ['system requirements', 'pc', 'specs', 'platform', 'steam deck'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+// 通用填充词 + 本站所有文章标题/slug 共有前缀（love/hotel/simulator/wiki），无区分度，过滤掉
+const FILLER_WORDS = ['2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master', 'love', 'hotel', 'simulator', 'wiki']
 
 function normalize(text: string): string {
   return text
@@ -77,10 +63,8 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
-  if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
+  // Exact phrase match in title
+  if (normalizedQuery.length > 3 && normalizedTitle.includes(normalizedQuery)) {
     score += 100
   }
 
